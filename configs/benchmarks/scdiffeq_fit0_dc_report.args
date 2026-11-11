@@ -1,0 +1,17 @@
+@configs/benchmarks/scdiffeq_fit0_report.args
+--projection-unit
+donor_cell_type
+--outdir
+artifacts/comparators_final/scdiffeq/fold_0/report_dc
+--cell-type-readout
+none
+--pca-knn-cell-types=
+--save-holdout-predictions=
+--calibration-objective
+projection
+--min-calibration-cells
+5
+--cell-types
+DC
+--min-normal-cells
+5

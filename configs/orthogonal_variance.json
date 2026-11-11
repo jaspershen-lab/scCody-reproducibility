@@ -1,0 +1,1094 @@
+[
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "global",
+    "mode": "disease",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/Global/disease.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-G_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/global/fold0"
+  },
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "global",
+    "mode": "healthy",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/Global/healthy.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-G_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": "configs/donors/psychad_healthy_holdout.json",
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/global/fold0"
+  },
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "disease",
+    "groups": [
+      "Astro"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/Astro/disease.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-CT_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/cell_type/fold0"
+  },
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "healthy",
+    "groups": [
+      "Astro"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/Astro/healthy.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-CT_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": "configs/donors/psychad_healthy_holdout.json",
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/cell_type/fold0"
+  },
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "disease",
+    "groups": [
+      "EN"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/EN/disease.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-CT_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/cell_type/fold0"
+  },
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "healthy",
+    "groups": [
+      "EN"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/EN/healthy.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-CT_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": "configs/donors/psychad_healthy_holdout.json",
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/cell_type/fold0"
+  },
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "disease",
+    "groups": [
+      "Endo"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/Endo/disease.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-CT_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/cell_type/fold0"
+  },
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "healthy",
+    "groups": [
+      "Endo"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/Endo/healthy.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-CT_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": "configs/donors/psychad_healthy_holdout.json",
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/cell_type/fold0"
+  },
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "disease",
+    "groups": [
+      "IN"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/IN/disease.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-CT_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/cell_type/fold0"
+  },
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "healthy",
+    "groups": [
+      "IN"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/IN/healthy.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-CT_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": "configs/donors/psychad_healthy_holdout.json",
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/cell_type/fold0"
+  },
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "disease",
+    "groups": [
+      "Immune"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/Immune/disease.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-CT_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/cell_type/fold0"
+  },
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "healthy",
+    "groups": [
+      "Immune"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/Immune/healthy.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-CT_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": "configs/donors/psychad_healthy_holdout.json",
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/cell_type/fold0"
+  },
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "disease",
+    "groups": [
+      "Mural"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/Mural/disease.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-CT_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/cell_type/fold0"
+  },
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "healthy",
+    "groups": [
+      "Mural"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/Mural/healthy.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-CT_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": "configs/donors/psychad_healthy_holdout.json",
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/cell_type/fold0"
+  },
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "disease",
+    "groups": [
+      "OPC"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/OPC/disease.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-CT_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/cell_type/fold0"
+  },
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "healthy",
+    "groups": [
+      "OPC"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/OPC/healthy.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-CT_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": "configs/donors/psychad_healthy_holdout.json",
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/cell_type/fold0"
+  },
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "disease",
+    "groups": [
+      "Oligo"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/Oligo/disease.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-CT_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/cell_type/fold0"
+  },
+  {
+    "cohort": "AD",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "healthy",
+    "groups": [
+      "Oligo"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/AD/Oligo/healthy.tsv.gz",
+    "model": "checkpoints/PsychAD_scCody-CT_fit0.pt",
+    "target_h5ad": "data/psychad/ad_case_control.h5ad",
+    "cell_type_key": "class",
+    "max_ot_cells": 256,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": "configs/donors/psychad_healthy_holdout.json",
+    "outdir": "artifacts/orthogonal_residual_variance/fields/AD/cell_type/fold0"
+  },
+  {
+    "cohort": "Ren",
+    "fold": 0,
+    "scope": "global",
+    "mode": "disease",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Ren/global/fold0/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit0.pt",
+    "target_h5ad": "data/covid/ren_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Ren/global/fold0"
+  },
+  {
+    "cohort": "Ren",
+    "fold": 0,
+    "scope": "global",
+    "mode": "healthy",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Ren/global/fold0/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit0.pt",
+    "target_h5ad": "data/covid/ren_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Ren/global/fold0"
+  },
+  {
+    "cohort": "Ren",
+    "fold": 1,
+    "scope": "global",
+    "mode": "disease",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Ren/global/fold1/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit1.pt",
+    "target_h5ad": "data/covid/ren_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Ren/global/fold1"
+  },
+  {
+    "cohort": "Ren",
+    "fold": 1,
+    "scope": "global",
+    "mode": "healthy",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Ren/global/fold1/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit1.pt",
+    "target_h5ad": "data/covid/ren_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Ren/global/fold1"
+  },
+  {
+    "cohort": "Ren",
+    "fold": 2,
+    "scope": "global",
+    "mode": "disease",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Ren/global/fold2/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit2.pt",
+    "target_h5ad": "data/covid/ren_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Ren/global/fold2"
+  },
+  {
+    "cohort": "Ren",
+    "fold": 2,
+    "scope": "global",
+    "mode": "healthy",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Ren/global/fold2/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit2.pt",
+    "target_h5ad": "data/covid/ren_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Ren/global/fold2"
+  },
+  {
+    "cohort": "Ren",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "disease",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "Platelet",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Ren/cell_type/fold0/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit0.pt",
+    "target_h5ad": "data/covid/ren_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Ren/cell_type/fold0"
+  },
+  {
+    "cohort": "Ren",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "healthy",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "Platelet",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Ren/cell_type/fold0/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit0.pt",
+    "target_h5ad": "data/covid/ren_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Ren/cell_type/fold0"
+  },
+  {
+    "cohort": "Ren",
+    "fold": 1,
+    "scope": "cell_type",
+    "mode": "disease",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "Platelet",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Ren/cell_type/fold1/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit1.pt",
+    "target_h5ad": "data/covid/ren_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Ren/cell_type/fold1"
+  },
+  {
+    "cohort": "Ren",
+    "fold": 1,
+    "scope": "cell_type",
+    "mode": "healthy",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "Platelet",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Ren/cell_type/fold1/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit1.pt",
+    "target_h5ad": "data/covid/ren_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Ren/cell_type/fold1"
+  },
+  {
+    "cohort": "Ren",
+    "fold": 2,
+    "scope": "cell_type",
+    "mode": "disease",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "Platelet",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Ren/cell_type/fold2/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit2.pt",
+    "target_h5ad": "data/covid/ren_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Ren/cell_type/fold2"
+  },
+  {
+    "cohort": "Ren",
+    "fold": 2,
+    "scope": "cell_type",
+    "mode": "healthy",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "Platelet",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Ren/cell_type/fold2/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit2.pt",
+    "target_h5ad": "data/covid/ren_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Ren/cell_type/fold2"
+  },
+  {
+    "cohort": "COMBAT",
+    "fold": 0,
+    "scope": "global",
+    "mode": "disease",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/COMBAT/global/fold0/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit0.pt",
+    "target_h5ad": "data/covid/combat_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/COMBAT/global/fold0"
+  },
+  {
+    "cohort": "COMBAT",
+    "fold": 0,
+    "scope": "global",
+    "mode": "healthy",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/COMBAT/global/fold0/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit0.pt",
+    "target_h5ad": "data/covid/combat_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/COMBAT/global/fold0"
+  },
+  {
+    "cohort": "COMBAT",
+    "fold": 1,
+    "scope": "global",
+    "mode": "disease",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/COMBAT/global/fold1/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit1.pt",
+    "target_h5ad": "data/covid/combat_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/COMBAT/global/fold1"
+  },
+  {
+    "cohort": "COMBAT",
+    "fold": 1,
+    "scope": "global",
+    "mode": "healthy",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/COMBAT/global/fold1/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit1.pt",
+    "target_h5ad": "data/covid/combat_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/COMBAT/global/fold1"
+  },
+  {
+    "cohort": "COMBAT",
+    "fold": 2,
+    "scope": "global",
+    "mode": "disease",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/COMBAT/global/fold2/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit2.pt",
+    "target_h5ad": "data/covid/combat_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/COMBAT/global/fold2"
+  },
+  {
+    "cohort": "COMBAT",
+    "fold": 2,
+    "scope": "global",
+    "mode": "healthy",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/COMBAT/global/fold2/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit2.pt",
+    "target_h5ad": "data/covid/combat_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/COMBAT/global/fold2"
+  },
+  {
+    "cohort": "COMBAT",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "disease",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/COMBAT/cell_type/fold0/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit0.pt",
+    "target_h5ad": "data/covid/combat_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/COMBAT/cell_type/fold0"
+  },
+  {
+    "cohort": "COMBAT",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "healthy",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/COMBAT/cell_type/fold0/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit0.pt",
+    "target_h5ad": "data/covid/combat_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/COMBAT/cell_type/fold0"
+  },
+  {
+    "cohort": "COMBAT",
+    "fold": 1,
+    "scope": "cell_type",
+    "mode": "disease",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/COMBAT/cell_type/fold1/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit1.pt",
+    "target_h5ad": "data/covid/combat_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/COMBAT/cell_type/fold1"
+  },
+  {
+    "cohort": "COMBAT",
+    "fold": 1,
+    "scope": "cell_type",
+    "mode": "healthy",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/COMBAT/cell_type/fold1/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit1.pt",
+    "target_h5ad": "data/covid/combat_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/COMBAT/cell_type/fold1"
+  },
+  {
+    "cohort": "COMBAT",
+    "fold": 2,
+    "scope": "cell_type",
+    "mode": "disease",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/COMBAT/cell_type/fold2/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit2.pt",
+    "target_h5ad": "data/covid/combat_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/COMBAT/cell_type/fold2"
+  },
+  {
+    "cohort": "COMBAT",
+    "fold": 2,
+    "scope": "cell_type",
+    "mode": "healthy",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/COMBAT/cell_type/fold2/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit2.pt",
+    "target_h5ad": "data/covid/combat_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/COMBAT/cell_type/fold2"
+  },
+  {
+    "cohort": "Stephenson",
+    "fold": 0,
+    "scope": "global",
+    "mode": "disease",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Stephenson/global/fold0/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit0.pt",
+    "target_h5ad": "data/covid/stephenson_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Stephenson/global/fold0"
+  },
+  {
+    "cohort": "Stephenson",
+    "fold": 0,
+    "scope": "global",
+    "mode": "healthy",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Stephenson/global/fold0/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit0.pt",
+    "target_h5ad": "data/covid/stephenson_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Stephenson/global/fold0"
+  },
+  {
+    "cohort": "Stephenson",
+    "fold": 1,
+    "scope": "global",
+    "mode": "disease",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Stephenson/global/fold1/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit1.pt",
+    "target_h5ad": "data/covid/stephenson_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Stephenson/global/fold1"
+  },
+  {
+    "cohort": "Stephenson",
+    "fold": 1,
+    "scope": "global",
+    "mode": "healthy",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Stephenson/global/fold1/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit1.pt",
+    "target_h5ad": "data/covid/stephenson_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Stephenson/global/fold1"
+  },
+  {
+    "cohort": "Stephenson",
+    "fold": 2,
+    "scope": "global",
+    "mode": "disease",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Stephenson/global/fold2/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit2.pt",
+    "target_h5ad": "data/covid/stephenson_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Stephenson/global/fold2"
+  },
+  {
+    "cohort": "Stephenson",
+    "fold": 2,
+    "scope": "global",
+    "mode": "healthy",
+    "groups": [
+      "Global population"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Stephenson/global/fold2/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-G_fit2.pt",
+    "target_h5ad": "data/covid/stephenson_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Stephenson/global/fold2"
+  },
+  {
+    "cohort": "Stephenson",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "disease",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "Platelet",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Stephenson/cell_type/fold0/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit0.pt",
+    "target_h5ad": "data/covid/stephenson_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Stephenson/cell_type/fold0"
+  },
+  {
+    "cohort": "Stephenson",
+    "fold": 0,
+    "scope": "cell_type",
+    "mode": "healthy",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "Platelet",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Stephenson/cell_type/fold0/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit0.pt",
+    "target_h5ad": "data/covid/stephenson_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Stephenson/cell_type/fold0"
+  },
+  {
+    "cohort": "Stephenson",
+    "fold": 1,
+    "scope": "cell_type",
+    "mode": "disease",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "Platelet",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Stephenson/cell_type/fold1/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit1.pt",
+    "target_h5ad": "data/covid/stephenson_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Stephenson/cell_type/fold1"
+  },
+  {
+    "cohort": "Stephenson",
+    "fold": 1,
+    "scope": "cell_type",
+    "mode": "healthy",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "Platelet",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Stephenson/cell_type/fold1/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit1.pt",
+    "target_h5ad": "data/covid/stephenson_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Stephenson/cell_type/fold1"
+  },
+  {
+    "cohort": "Stephenson",
+    "fold": 2,
+    "scope": "cell_type",
+    "mode": "disease",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "Platelet",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Stephenson/cell_type/fold2/disease.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit2.pt",
+    "target_h5ad": "data/covid/stephenson_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260902,
+    "shift_label": null,
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Stephenson/cell_type/fold2"
+  },
+  {
+    "cohort": "Stephenson",
+    "fold": 2,
+    "scope": "cell_type",
+    "mode": "healthy",
+    "groups": [
+      "B",
+      "Myeloid",
+      "NK",
+      "Platelet",
+      "T"
+    ],
+    "pairs": "configs/pairs/orthogonal_variance/Stephenson/cell_type/fold2/healthy.tsv.gz",
+    "model": "checkpoints/AIDA_scCody-CT_fit2.pt",
+    "target_h5ad": "data/covid/stephenson_covid_case_control_aida2000_mean_imputed.h5ad",
+    "cell_type_key": "Annotation_Level1",
+    "max_ot_cells": 384,
+    "min_cells": 20,
+    "seed": 20260903,
+    "shift_label": "plus_10y",
+    "target_donor_manifest": null,
+    "outdir": "artifacts/orthogonal_residual_variance/fields/Stephenson/cell_type/fold2"
+  }
+]

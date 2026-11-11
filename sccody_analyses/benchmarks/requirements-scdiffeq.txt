@@ -1,0 +1,4 @@
+-r ../../requirements.txt
+scdiffeq==1.1.0
+torchsde==0.2.6
+lightning==2.5.2

@@ -1,0 +1,302 @@
+{
+  "schema": "matched_fixed_source_ages",
+  "design": "full_forward_cohort",
+  "age_key": "age",
+  "donor_key": "donor_id",
+  "match_by": [
+    "sex"
+  ],
+  "min_target_donors": 1,
+  "min_source_donors": 1,
+  "min_source_ages": 1,
+  "max_source_ages": 1,
+  "min_source_age": 19.0,
+  "max_source_age": 19.0,
+  "selection_policy": "spread",
+  "fixed_source_ages": [
+    19.0
+  ],
+  "source_direction": "earlier",
+  "seed": 44,
+  "h5ad": "aida_age_holdout_train.h5ad",
+  "holdout_manifest": "configs/donors/internal_2.json",
+  "target_ages": [
+    24.0,
+    33.0,
+    43.0,
+    53.0,
+    63.0,
+    65.0
+  ],
+  "groups": [
+    {
+      "id": "age=24|sex=female",
+      "target_age": 24.0,
+      "match": {
+        "sex": "female"
+      },
+      "target_donors": [
+        "IN_NIB_H024",
+        "IN_NIB_H026",
+        "JP_RIK_H013",
+        "JP_RIK_H098",
+        "KR_SGI_H053",
+        "KR_SGI_H063",
+        "KR_SGI_H162"
+      ],
+      "target_cells": 13514,
+      "source_ages": [
+        19.0
+      ],
+      "source_direction": "earlier",
+      "selected_source_age_count": 1,
+      "supported": true
+    },
+    {
+      "id": "age=24|sex=male",
+      "target_age": 24.0,
+      "match": {
+        "sex": "male"
+      },
+      "target_donors": [
+        "IN_NIB_H021",
+        "IN_NIB_H032",
+        "IN_NIB_H034",
+        "IN_NIB_H035"
+      ],
+      "target_cells": 5770,
+      "source_ages": [
+        19.0
+      ],
+      "source_direction": "earlier",
+      "selected_source_age_count": 1,
+      "supported": true
+    },
+    {
+      "id": "age=33|sex=female",
+      "target_age": 33.0,
+      "match": {
+        "sex": "female"
+      },
+      "target_donors": [
+        "JP_RIK_H016",
+        "JP_RIK_H024",
+        "JP_RIK_H034",
+        "JP_RIK_H049",
+        "JP_RIK_H068",
+        "JP_RIK_H084",
+        "JP_RIK_H086",
+        "JP_RIK_H113",
+        "JP_RIK_H116",
+        "JP_RIK_H134",
+        "KR_SGI_H008",
+        "KR_SGI_H027",
+        "KR_SGI_H056",
+        "SG_HEL_H099",
+        "SG_HEL_H193",
+        "SG_HEL_H288",
+        "SG_HEL_H491"
+      ],
+      "target_cells": 33886,
+      "source_ages": [
+        19.0
+      ],
+      "source_direction": "earlier",
+      "selected_source_age_count": 1,
+      "supported": true
+    },
+    {
+      "id": "age=33|sex=male",
+      "target_age": 33.0,
+      "match": {
+        "sex": "male"
+      },
+      "target_donors": [
+        "JP_RIK_H129",
+        "LONZA3030004",
+        "SG_HEL_H13a",
+        "SG_HEL_H15a",
+        "SG_HEL_H295",
+        "SG_HEL_H303",
+        "SG_HEL_H450"
+      ],
+      "target_cells": 13708,
+      "source_ages": [
+        19.0
+      ],
+      "source_direction": "earlier",
+      "selected_source_age_count": 1,
+      "supported": true
+    },
+    {
+      "id": "age=43|sex=female",
+      "target_age": 43.0,
+      "match": {
+        "sex": "female"
+      },
+      "target_donors": [
+        "JP_RIK_H008",
+        "JP_RIK_H058",
+        "JP_RIK_H059",
+        "JP_RIK_H093",
+        "JP_RIK_H120",
+        "JP_RIK_H148",
+        "KR_SGI_H064",
+        "SG_HEL_H119",
+        "SG_HEL_H135",
+        "SG_HEL_H249",
+        "SG_HEL_H262"
+      ],
+      "target_cells": 18927,
+      "source_ages": [
+        19.0
+      ],
+      "source_direction": "earlier",
+      "selected_source_age_count": 1,
+      "supported": true
+    },
+    {
+      "id": "age=43|sex=male",
+      "target_age": 43.0,
+      "match": {
+        "sex": "male"
+      },
+      "target_donors": [
+        "JP_RIK_H027",
+        "JP_RIK_H073",
+        "JP_RIK_H075",
+        "JP_RIK_H132",
+        "JP_RIK_H138",
+        "KR_SGI_H049",
+        "KR_SGI_H102",
+        "SG_HEL_H10a"
+      ],
+      "target_cells": 16684,
+      "source_ages": [
+        19.0
+      ],
+      "source_direction": "earlier",
+      "selected_source_age_count": 1,
+      "supported": true
+    },
+    {
+      "id": "age=53|sex=female",
+      "target_age": 53.0,
+      "match": {
+        "sex": "female"
+      },
+      "target_donors": [
+        "SG_HEL_H008",
+        "SG_HEL_H017",
+        "SG_HEL_H051",
+        "SG_HEL_H054",
+        "SG_HEL_H07a",
+        "SG_HEL_H338",
+        "TH_MAH_H025"
+      ],
+      "target_cells": 14215,
+      "source_ages": [
+        19.0
+      ],
+      "source_direction": "earlier",
+      "selected_source_age_count": 1,
+      "supported": true
+    },
+    {
+      "id": "age=53|sex=male",
+      "target_age": 53.0,
+      "match": {
+        "sex": "male"
+      },
+      "target_donors": [
+        "KR_SGI_H144",
+        "SG_HEL_H174",
+        "SG_HEL_H217",
+        "SG_HEL_H220",
+        "SG_HEL_H469",
+        "TH_MAH_H042"
+      ],
+      "target_cells": 10254,
+      "source_ages": [
+        19.0
+      ],
+      "source_direction": "earlier",
+      "selected_source_age_count": 1,
+      "supported": true
+    },
+    {
+      "id": "age=63|sex=female",
+      "target_age": 63.0,
+      "match": {
+        "sex": "female"
+      },
+      "target_donors": [
+        "SG_HEL_H182",
+        "SG_HEL_H483"
+      ],
+      "target_cells": 1999,
+      "source_ages": [
+        19.0
+      ],
+      "source_direction": "earlier",
+      "selected_source_age_count": 1,
+      "supported": true
+    },
+    {
+      "id": "age=63|sex=male",
+      "target_age": 63.0,
+      "match": {
+        "sex": "male"
+      },
+      "target_donors": [
+        "JP_RIK_H015",
+        "KR_SGI_H129"
+      ],
+      "target_cells": 3045,
+      "source_ages": [
+        19.0
+      ],
+      "source_direction": "earlier",
+      "selected_source_age_count": 1,
+      "supported": true
+    },
+    {
+      "id": "age=65|sex=female",
+      "target_age": 65.0,
+      "match": {
+        "sex": "female"
+      },
+      "target_donors": [
+        "JP_RIK_H082",
+        "KR_SGI_H123",
+        "SG_HEL_H14a",
+        "SG_HEL_H237",
+        "TH_MAH_H011"
+      ],
+      "target_cells": 9984,
+      "source_ages": [
+        19.0
+      ],
+      "source_direction": "earlier",
+      "selected_source_age_count": 1,
+      "supported": true
+    },
+    {
+      "id": "age=65|sex=male",
+      "target_age": 65.0,
+      "match": {
+        "sex": "male"
+      },
+      "target_donors": [
+        "SG_HEL_H171"
+      ],
+      "target_cells": 1659,
+      "source_ages": [
+        19.0
+      ],
+      "source_direction": "earlier",
+      "selected_source_age_count": 1,
+      "supported": true
+    }
+  ]
+}

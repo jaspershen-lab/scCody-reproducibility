@@ -1,0 +1,7 @@
+program	display_name	biological_theme	expected_direction	applicable_lineages	rationale	reference
+Inflammatory_response	Inflammatory response	Inflammaging	up	B,T,NK,Myeloid,DC	Chronic inflammatory signaling commonly increases during human immune aging.	https://pubmed.ncbi.nlm.nih.gov/39143696/
+TNF_NFkB	TNF–NFκB	Inflammaging	up	B,T,NK,Myeloid,DC	TNF-alpha signaling via NF-kB is elevated across aged immune cells in large human single-cell atlases.	https://pubmed.ncbi.nlm.nih.gov/39143696/
+Cellular_senescence	Cellular senescence	Senescence	up	B,T,NK,Myeloid,DC	Older human circulating immune cells show increased inflammation- and senescence-associated expression.	https://pubmed.ncbi.nlm.nih.gov/32780218/
+SASP	Senescence-associated secretory phenotype	Senescence	up	B,T,NK,Myeloid,DC	Senescent immune states are associated with increased secretory inflammatory programs; older human B cells show increased senescence and SASP markers.	https://pubmed.ncbi.nlm.nih.gov/35464165/
+BCR_signaling	BCR signaling	Adaptive immune decline	down	B	Aging is associated with diminished B-cell function, antibody responses, and B-cell receptor repertoire diversity.	https://pubmed.ncbi.nlm.nih.gov/26614343/
+TCR_signaling	TCR signaling	T-cell signaling	down	T	Reference gene set is fetched from the curated Reactome pathway REACTOME_TCR_SIGNALING; no genes are manually selected.	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/REACTOME_TCR_SIGNALING

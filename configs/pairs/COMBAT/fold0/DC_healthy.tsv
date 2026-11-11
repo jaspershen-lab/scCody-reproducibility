@@ -1,0 +1,6 @@
+scope	group	shift_label	source_donor	target_donor	source_age	target_age	age_gap	target_sex	source_sex
+cell_type	DC	plus_10y	H00052	H00054	44.5	54.5	10.0	male	male
+cell_type	DC	plus_10y	H00053	H00049	44.5	54.5	10.0	female	female
+cell_type	DC	plus_10y	H00053	H00058	44.5	54.5	10.0	female	female
+cell_type	DC	plus_10y	H00054	H00064	54.5	64.5	10.0	male	male
+cell_type	DC	plus_10y	H00064	H00070	64.5	74.5	10.0	male	male

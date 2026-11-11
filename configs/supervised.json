@@ -1,0 +1,134 @@
+{
+  "supervised_models": {
+    "lasso_global": {
+      "selected_parameters": {
+        "alpha": 0.5011872336272722,
+        "l1_ratio": 1.0
+      },
+      "protocol": {
+        "min_cells": 5,
+        "max_iter": 50000
+      }
+    },
+    "lasso_cell_type": {
+      "selected_parameters": {
+        "B": {
+          "alpha": 0.19952623149688786,
+          "l1_ratio": 1.0
+        },
+        "DC": {
+          "alpha": 1.258925411794167,
+          "l1_ratio": 1.0
+        },
+        "ILC": {
+          "alpha": 10.0,
+          "l1_ratio": 1.0
+        },
+        "Myeloid": {
+          "alpha": 0.1,
+          "l1_ratio": 1.0
+        },
+        "NK": {
+          "alpha": 0.19952623149688786,
+          "l1_ratio": 1.0
+        },
+        "Plasma_Cell": {
+          "alpha": 10.0,
+          "l1_ratio": 1.0
+        },
+        "Platelet": {
+          "alpha": 0.39810717055349715,
+          "l1_ratio": 1.0
+        },
+        "T": {
+          "alpha": 0.0501187233627272,
+          "l1_ratio": 1.0
+        }
+      },
+      "protocol": {
+        "min_cells": 5,
+        "max_iter": 50000
+      }
+    },
+    "elasticnet_global": {
+      "selected_parameters": {
+        "alpha": 0.5011872336272722,
+        "l1_ratio": 0.99
+      },
+      "protocol": {
+        "min_cells": 5,
+        "max_iter": 50000
+      }
+    },
+    "elasticnet_cell_type": {
+      "selected_parameters": {
+        "B": {
+          "alpha": 0.19952623149688786,
+          "l1_ratio": 0.1
+        },
+        "DC": {
+          "alpha": 1.258925411794167,
+          "l1_ratio": 0.99
+        },
+        "ILC": {
+          "alpha": 0.01,
+          "l1_ratio": 0.1
+        },
+        "Myeloid": {
+          "alpha": 0.1,
+          "l1_ratio": 0.99
+        },
+        "NK": {
+          "alpha": 0.5011872336272722,
+          "l1_ratio": 0.1
+        },
+        "Plasma_Cell": {
+          "alpha": 3.1622776601683795,
+          "l1_ratio": 0.1
+        },
+        "Platelet": {
+          "alpha": 0.39810717055349715,
+          "l1_ratio": 0.5
+        },
+        "T": {
+          "alpha": 0.0501187233627272,
+          "l1_ratio": 0.9
+        }
+      },
+      "protocol": {
+        "min_cells": 5,
+        "max_iter": 50000
+      }
+    },
+    "tage": {
+      "selected_parameters": {
+        "alpha": 0.01995262314968879,
+        "l1_ratio": 1.0
+      },
+      "protocol": {
+        "min_cells": 5,
+        "max_iter": 50000
+      }
+    },
+    "covid_clock_global": {
+      "selected_parameters": {
+        "alpha": 0.0501187233627272,
+        "l1_ratio": 1.0
+      },
+      "protocol": {
+        "min_cells": 100,
+        "max_iter": 50000
+      }
+    },
+    "covid_clock_cell_type": {
+      "selected_parameters": {
+        "alpha": 0.03162277660168379,
+        "l1_ratio": 1.0
+      },
+      "protocol": {
+        "min_cells": 100,
+        "max_iter": 50000
+      }
+    }
+  }
+}

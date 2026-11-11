@@ -1,0 +1,24 @@
+dataset_id: normal_pbmc
+aliases: [aida]
+h5ad: data/aida_counts_hvg.h5ad
+age_key: age
+donor_key: donor_id
+cell_type_key: Annotation_Level1
+cohort_key: cohort
+normal_label: aida
+split:
+  scheme: exact_age_holdout
+  age_match_tolerance_years: 0
+  min_cells_per_age: 100
+de_reference:
+  id: normal_pbmc_de_reference
+  exclude_holdout: false
+  exclude_ages: [21, 31, 41, 51, 61, 68]
+  age_domain: [19, 100]
+  strata: [age, Annotation_Level1, sex]
+  max_cells: 50000
+  seed: 42
+  expression_layer: X
+  count_layer: counts
+  fold_specific: false
+diseases: {}

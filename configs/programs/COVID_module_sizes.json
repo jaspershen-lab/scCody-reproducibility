@@ -1,0 +1,14 @@
+{
+  "Interferon \u03b1/\u03b2 signaling": 27,
+  "Interferon-\u03b1 response": 27,
+  "Interferon-\u03b3 response": 82,
+  "MHC class II protein complex": 13,
+  "TNF\u03b1 signaling via NF-\u03baB": 120,
+  "Inflammatory response": 101,
+  "IL-6/JAK/STAT3 signaling": 40,
+  "Non-classical monocyte (Travaglini 2020)": 139,
+  "MS1 monocyte score (Reyes 2020)": 6,
+  "Calprotectin S100A8/A9 + S100A12": 3,
+  "Calprotectin complex (GO:1990660)": 2,
+  "CD16 monocyte (Azimuth PBMC, Hao 2021)": 8
+}

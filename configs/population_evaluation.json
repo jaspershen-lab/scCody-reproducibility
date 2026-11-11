@@ -1,0 +1,321 @@
+{
+  "cell_types": [
+    "T",
+    "Myeloid",
+    "NK",
+    "B",
+    "Platelet",
+    "Plasma_Cell",
+    "CD34_HSPC",
+    "DC",
+    "ILC"
+  ],
+  "count_layer": "counts",
+  "schema": 1,
+  "columns": {
+    "sample": "donor_id",
+    "time": "age",
+    "type": "Annotation_Level1",
+    "strata": [
+      "sex"
+    ]
+  },
+  "min_cells": 50,
+  "external_samples": [
+    "IN_NIB_H028",
+    "JP_RIK_H011",
+    "JP_RIK_H019",
+    "JP_RIK_H036",
+    "JP_RIK_H037",
+    "JP_RIK_H038",
+    "JP_RIK_H040",
+    "JP_RIK_H045",
+    "JP_RIK_H063",
+    "JP_RIK_H065",
+    "JP_RIK_H074",
+    "JP_RIK_H077",
+    "JP_RIK_H085",
+    "JP_RIK_H091",
+    "JP_RIK_H100",
+    "JP_RIK_H117",
+    "JP_RIK_H126",
+    "JP_RIK_H133",
+    "JP_RIK_H145",
+    "JP_RIK_H146",
+    "JP_RIK_H149",
+    "KR_SGI_H001",
+    "KR_SGI_H009",
+    "KR_SGI_H012",
+    "KR_SGI_H043",
+    "KR_SGI_H086",
+    "KR_SGI_H097",
+    "KR_SGI_H107",
+    "KR_SGI_H110",
+    "KR_SGI_H116",
+    "KR_SGI_H125",
+    "KR_SGI_H138",
+    "KR_SGI_H139",
+    "KR_SGI_H155",
+    "KR_SGI_H157",
+    "LONZA3038016",
+    "LONZA3038097",
+    "SG_HEL_H011",
+    "SG_HEL_H013",
+    "SG_HEL_H024",
+    "SG_HEL_H032",
+    "SG_HEL_H042",
+    "SG_HEL_H044",
+    "SG_HEL_H05a",
+    "SG_HEL_H069",
+    "SG_HEL_H113",
+    "SG_HEL_H126",
+    "SG_HEL_H130",
+    "SG_HEL_H156",
+    "SG_HEL_H158",
+    "SG_HEL_H16a",
+    "SG_HEL_H213",
+    "SG_HEL_H254",
+    "SG_HEL_H266",
+    "SG_HEL_H276",
+    "SG_HEL_H281",
+    "SG_HEL_H339",
+    "SG_HEL_H377",
+    "SG_HEL_H448",
+    "TH_MAH_H005",
+    "TH_MAH_H008",
+    "TH_MAH_H009",
+    "TH_MAH_H021",
+    "TH_MAH_H022",
+    "TH_MAH_H023",
+    "TH_MAH_H027",
+    "TH_MAH_H030",
+    "TH_MAH_H035",
+    "TH_MAH_H043",
+    "TH_MAH_H044",
+    "TH_MAH_H059"
+  ],
+  "macro_cell_types": [
+    "B",
+    "Myeloid",
+    "NK",
+    "T"
+  ],
+  "target_times": [
+    21,
+    31,
+    41,
+    51,
+    61,
+    68
+  ],
+  "data": "data/aida_counts_hvg.h5ad",
+  "reference_indices": "artifacts/reference_indices.npz",
+  "output": "artifacts/population_evaluation",
+  "control_source": null,
+  "tasks": [
+    {
+      "name": "G_fit0",
+      "fit": 0,
+      "scope": "global",
+      "checkpoint": "artifacts/aida/flowmap_global/fit_0/fit/model.pt",
+      "target_template": "artifacts/predictions/flowmap_global_fit0.npz",
+      "source_times": [
+        19.0,
+        33.0,
+        44.0,
+        55.0,
+        66.0
+      ],
+      "eligible_types": []
+    },
+    {
+      "name": "CT_fit0",
+      "fit": 0,
+      "scope": "cell_type",
+      "checkpoint": "artifacts/aida/flowmap_cell_type/fit_0/fit/model.pt",
+      "target_template": "artifacts/predictions/flowmap_cell_type_fit0.npz",
+      "source_times": [
+        19.0,
+        33.0,
+        44.0,
+        55.0,
+        66.0
+      ],
+      "eligible_types": [
+        "T",
+        "Myeloid",
+        "NK",
+        "B",
+        "Platelet",
+        "DC"
+      ]
+    },
+    {
+      "name": "G_fit1",
+      "fit": 1,
+      "scope": "global",
+      "checkpoint": "artifacts/aida/flowmap_global/fit_1/fit/model.pt",
+      "target_template": "artifacts/predictions/flowmap_global_fit1.npz",
+      "source_times": [
+        19.0,
+        33.0,
+        44.0,
+        55.0,
+        67.0
+      ],
+      "eligible_types": []
+    },
+    {
+      "name": "CT_fit1",
+      "fit": 1,
+      "scope": "cell_type",
+      "checkpoint": "artifacts/aida/flowmap_cell_type/fit_1/fit/model.pt",
+      "target_template": "artifacts/predictions/flowmap_cell_type_fit1.npz",
+      "source_times": [
+        19.0,
+        33.0,
+        44.0,
+        55.0,
+        67.0
+      ],
+      "eligible_types": [
+        "T",
+        "Myeloid",
+        "NK",
+        "B",
+        "Platelet",
+        "DC"
+      ]
+    },
+    {
+      "name": "G_fit2",
+      "fit": 2,
+      "scope": "global",
+      "checkpoint": "artifacts/aida/flowmap_global/fit_2/fit/model.pt",
+      "target_template": "artifacts/predictions/flowmap_global_fit2.npz",
+      "source_times": [
+        19.0,
+        32.0,
+        44.0,
+        55.0,
+        67.0
+      ],
+      "eligible_types": []
+    },
+    {
+      "name": "CT_fit2",
+      "fit": 2,
+      "scope": "cell_type",
+      "checkpoint": "artifacts/aida/flowmap_cell_type/fit_2/fit/model.pt",
+      "target_template": "artifacts/predictions/flowmap_cell_type_fit2.npz",
+      "source_times": [
+        19.0,
+        32.0,
+        44.0,
+        55.0,
+        67.0
+      ],
+      "eligible_types": [
+        "T",
+        "Myeloid",
+        "NK",
+        "B",
+        "Platelet",
+        "DC"
+      ]
+    }
+  ],
+  "evaluation_tasks": [
+    {
+      "name": "G_fit0",
+      "model": "scCody-global",
+      "fit": 0,
+      "artifact": "artifacts/population_evaluation/generation/G_fit0/predictions.npz"
+    },
+    {
+      "name": "CT_fit0",
+      "model": "scCody-cell_type",
+      "fit": 0,
+      "artifact": "artifacts/population_evaluation/generation/CT_fit0/predictions.npz"
+    },
+    {
+      "name": "G_fit1",
+      "model": "scCody-global",
+      "fit": 1,
+      "artifact": "artifacts/population_evaluation/generation/G_fit1/predictions.npz"
+    },
+    {
+      "name": "CT_fit1",
+      "model": "scCody-cell_type",
+      "fit": 1,
+      "artifact": "artifacts/population_evaluation/generation/CT_fit1/predictions.npz"
+    },
+    {
+      "name": "G_fit2",
+      "model": "scCody-global",
+      "fit": 2,
+      "artifact": "artifacts/population_evaluation/generation/G_fit2/predictions.npz"
+    },
+    {
+      "name": "CT_fit2",
+      "model": "scCody-cell_type",
+      "fit": 2,
+      "artifact": "artifacts/population_evaluation/generation/CT_fit2/predictions.npz"
+    },
+    {
+      "name": "scnode_fit0",
+      "model": "scnode",
+      "fit": 0,
+      "artifact": "artifacts/predictions/scnode_fit0.npz"
+    },
+    {
+      "name": "scnode_fit1",
+      "model": "scnode",
+      "fit": 1,
+      "artifact": "artifacts/predictions/scnode_fit1.npz"
+    },
+    {
+      "name": "scnode_fit2",
+      "model": "scnode",
+      "fit": 2,
+      "artifact": "artifacts/predictions/scnode_fit2.npz"
+    },
+    {
+      "name": "scdiffeq_fit0",
+      "model": "scdiffeq",
+      "fit": 0,
+      "artifact": "artifacts/predictions/scdiffeq_fit0.npz"
+    },
+    {
+      "name": "scdiffeq_fit1",
+      "model": "scdiffeq",
+      "fit": 1,
+      "artifact": "artifacts/predictions/scdiffeq_fit1.npz"
+    },
+    {
+      "name": "scdiffeq_fit2",
+      "model": "scdiffeq",
+      "fit": 2,
+      "artifact": "artifacts/predictions/scdiffeq_fit2.npz"
+    },
+    {
+      "name": "artemis_fit0",
+      "model": "artemis",
+      "fit": 0,
+      "artifact": "artifacts/predictions/artemis_fit0.npz"
+    },
+    {
+      "name": "artemis_fit1",
+      "model": "artemis",
+      "fit": 1,
+      "artifact": "artifacts/predictions/artemis_fit1.npz"
+    },
+    {
+      "name": "artemis_fit2",
+      "model": "artemis",
+      "fit": 2,
+      "artifact": "artifacts/predictions/artemis_fit2.npz"
+    }
+  ],
+  "study_config": "configs/aida.json"
+}

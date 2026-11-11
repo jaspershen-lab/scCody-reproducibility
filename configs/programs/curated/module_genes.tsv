@@ -1,0 +1,982 @@
+dataset	module	symbol	panel_index
+AD	Synaptic signaling	CD38	5
+AD	Synaptic signaling	CACNG3	10
+AD	Synaptic signaling	TAC1	11
+AD	Synaptic signaling	IGF1	23
+AD	Synaptic signaling	ATP1A2	26
+AD	Synaptic signaling	SNCAIP	75
+AD	Synaptic signaling	CAMK2A	91
+AD	Synaptic signaling	CACNG5	111
+AD	Synaptic signaling	EDN1	119
+AD	Synaptic signaling	SLC1A3	120
+AD	Synaptic signaling	CADPS2	131
+AD	Synaptic signaling	KCNK2	135
+AD	Synaptic signaling	RPH3A	143
+AD	Synaptic signaling	NOS1	144
+AD	Synaptic signaling	PVALB	164
+AD	Synaptic signaling	GLRA2	170
+AD	Synaptic signaling	HTR2A	174
+AD	Synaptic signaling	CALB1	191
+AD	Synaptic signaling	PLAT	193
+AD	Synaptic signaling	CCL2	229
+AD	Synaptic signaling	P2RX3	234
+AD	Synaptic signaling	SLC1A2	237
+AD	Synaptic signaling	SYT10	242
+AD	Synaptic signaling	LIN7A	243
+AD	Synaptic signaling	CUX2	246
+AD	Synaptic signaling	OPRM1	258
+AD	Synaptic signaling	TACR1	297
+AD	Synaptic signaling	EPHA4	310
+AD	Synaptic signaling	TNR	313
+AD	Synaptic signaling	KMO	318
+AD	Synaptic signaling	CNR1	328
+AD	Synaptic signaling	PTK2B	348
+AD	Synaptic signaling	CHRNA2	349
+AD	Synaptic signaling	ADRA1A	350
+AD	Synaptic signaling	SV2C	353
+AD	Synaptic signaling	NXPH1	356
+AD	Synaptic signaling	NPY	357
+AD	Synaptic signaling	IL1B	376
+AD	Synaptic signaling	LAMP5	380
+AD	Synaptic signaling	VGF	393
+AD	Synaptic signaling	GAD1	397
+AD	Synaptic signaling	AKAP12	407
+AD	Synaptic signaling	GFAP	408
+AD	Synaptic signaling	CHRM3	416
+AD	Synaptic signaling	EPHA7	442
+AD	Synaptic signaling	GAD2	452
+AD	Synaptic signaling	HCRTR2	453
+AD	Synaptic signaling	UNC13C	463
+AD	Synaptic signaling	MYOF	473
+AD	Synaptic signaling	MCTP2	503
+AD	Synaptic signaling	CBLN2	514
+AD	Synaptic signaling	CNTN4	536
+AD	Synaptic signaling	TMEM108	546
+AD	Synaptic signaling	GLRA3	552
+AD	Synaptic signaling	CRHBP	557
+AD	Synaptic signaling	GABRA6	563
+AD	Synaptic signaling	HTR2C	573
+AD	Synaptic signaling	CRH	577
+AD	Synaptic signaling	HTR7	590
+AD	Synaptic signaling	CDH8	605
+AD	Synaptic signaling	SLC7A11	611
+AD	Synaptic signaling	GPR158	612
+AD	Synaptic signaling	RIT2	630
+AD	Synaptic signaling	HOMER1	633
+AD	Synaptic signaling	UTRN	637
+AD	Synaptic signaling	GRM1	638
+AD	Synaptic signaling	NRGN	657
+AD	Synaptic signaling	ADCY8	675
+AD	Synaptic signaling	SORCS3	688
+AD	Synaptic signaling	LRFN2	690
+AD	Synaptic signaling	SST	693
+AD	Synaptic signaling	SLC6A1	694
+AD	Synaptic signaling	KIT	696
+AD	Synaptic signaling	CLSTN2	703
+AD	Synaptic signaling	NTNG1	718
+AD	Synaptic signaling	DISC1	727
+AD	Synaptic signaling	GABRG1	733
+AD	Synaptic signaling	CADPS	744
+AD	Synaptic signaling	GRIK3	754
+AD	Synaptic signaling	HTR4	766
+AD	Synaptic signaling	CARTPT	767
+AD	Synaptic signaling	GRIK2	769
+AD	Synaptic signaling	HCN1	772
+AD	Synaptic signaling	CLMP	803
+AD	Synaptic signaling	NETO1	806
+AD	Synaptic signaling	PNOC	819
+AD	Synaptic signaling	FAM107A	822
+AD	Synaptic signaling	CX3CR1	823
+AD	Synaptic signaling	HTR1E	832
+AD	Synaptic signaling	RAB3B	838
+AD	Synaptic signaling	GRIK1	866
+AD	Synaptic signaling	PDE7B	868
+AD	Synaptic signaling	CALB2	878
+AD	Synaptic signaling	NPAS4	911
+AD	Synaptic signaling	CHRNA7	917
+AD	Synaptic signaling	MCTP1	920
+AD	Synaptic signaling	BDNF	924
+AD	Synaptic signaling	HTR1F	938
+AD	Synaptic signaling	SLC17A8	940
+AD	Synaptic signaling	GRM8	941
+AD	Synaptic signaling	CHRM2	955
+AD	Synaptic signaling	PENK	957
+AD	Synaptic signaling	KCNIP1	961
+AD	Synaptic signaling	GABRG3	963
+AD	Synaptic signaling	CACNB4	966
+AD	Synaptic signaling	CALN1	980
+AD	Synaptic signaling	GRIN2A	983
+AD	Synaptic signaling	SGCZ	1005
+AD	Synaptic signaling	GPRIN3	1010
+AD	Synaptic signaling	SV2B	1012
+AD	Synaptic signaling	NTF3	1016
+AD	Synaptic signaling	SYN3	1017
+AD	Synaptic signaling	LYPD6	1029
+AD	Synaptic signaling	DCC	1032
+AD	Synaptic signaling	ERC2	1038
+AD	Synaptic signaling	SHISA6	1052
+AD	Synaptic signaling	RELN	1054
+AD	Synaptic signaling	IL1RAP	1057
+AD	Synaptic signaling	GRM7	1061
+AD	Synaptic signaling	MME	1063
+AD	Synaptic signaling	LAMA2	1065
+AD	Synaptic signaling	DLGAP2	1084
+AD	Synaptic signaling	CACNA1E	1086
+AD	Synaptic signaling	ARC	1089
+AD	Synaptic signaling	GRIN3A	1094
+AD	Synaptic signaling	TNF	1294
+AD	Synaptic signaling	SHISA9	1369
+AD	Calcium ion transmembrane transport	MCUB	8
+AD	Calcium ion transmembrane transport	CACNG3	10
+AD	Calcium ion transmembrane transport	ATP1A2	26
+AD	Calcium ion transmembrane transport	ATP2C2	73
+AD	Calcium ion transmembrane transport	TRPC7	82
+AD	Calcium ion transmembrane transport	CNGB1	90
+AD	Calcium ion transmembrane transport	TRPC5	97
+AD	Calcium ion transmembrane transport	CACNG5	111
+AD	Calcium ion transmembrane transport	EDN1	119
+AD	Calcium ion transmembrane transport	PTPRC	130
+AD	Calcium ion transmembrane transport	TRPM3	136
+AD	Calcium ion transmembrane transport	NOS1	144
+AD	Calcium ion transmembrane transport	HTR2A	174
+AD	Calcium ion transmembrane transport	CEMIP	185
+AD	Calcium ion transmembrane transport	TRPA1	190
+AD	Calcium ion transmembrane transport	P2RX3	234
+AD	Calcium ion transmembrane transport	OPRM1	258
+AD	Calcium ion transmembrane transport	PLCH1	292
+AD	Calcium ion transmembrane transport	PTK2B	348
+AD	Calcium ion transmembrane transport	TRPC4	420
+AD	Calcium ion transmembrane transport	TRPC6	461
+AD	Calcium ion transmembrane transport	FGF2	478
+AD	Calcium ion transmembrane transport	TRPC3	481
+AD	Calcium ion transmembrane transport	SLC24A4	501
+AD	Calcium ion transmembrane transport	HTR2C	573
+AD	Calcium ion transmembrane transport	EDNRA	618
+AD	Calcium ion transmembrane transport	UBASH3B	656
+AD	Calcium ion transmembrane transport	MS4A1	692
+AD	Calcium ion transmembrane transport	CACNA2D3	697
+AD	Calcium ion transmembrane transport	CACHD1	706
+AD	Calcium ion transmembrane transport	TMC1	788
+AD	Calcium ion transmembrane transport	CXCL11	839
+AD	Calcium ion transmembrane transport	CHRNA7	917
+AD	Calcium ion transmembrane transport	CACNB4	966
+AD	Calcium ion transmembrane transport	GRIN2A	983
+AD	Calcium ion transmembrane transport	SLC24A3	1004
+AD	Calcium ion transmembrane transport	TRDN	1024
+AD	Calcium ion transmembrane transport	NPSR1	1031
+AD	Calcium ion transmembrane transport	CACNA1E	1086
+AD	Calcium ion transmembrane transport	RYR2	1090
+AD	Calcium ion transmembrane transport	GRIN3A	1094
+AD	Calcium ion transmembrane transport	RYR3	1097
+AD	Calcium ion transmembrane transport	LYN	1589
+AD	Calcium ion transmembrane transport	CCL3	1789
+AD	Response to oxidative stress	WNT16	1
+AD	Response to oxidative stress	CD38	5
+AD	Response to oxidative stress	MGST1	17
+AD	Response to oxidative stress	HGF	29
+AD	Response to oxidative stress	ABCC9	86
+AD	Response to oxidative stress	PTGS2	104
+AD	Response to oxidative stress	EDN1	119
+AD	Response to oxidative stress	HMOX1	163
+AD	Response to oxidative stress	TRPA1	190
+AD	Response to oxidative stress	PDLIM1	222
+AD	Response to oxidative stress	AREG	232
+AD	Response to oxidative stress	VNN1	265
+AD	Response to oxidative stress	TACR1	297
+AD	Response to oxidative stress	EPAS1	309
+AD	Response to oxidative stress	TNFAIP3	329
+AD	Response to oxidative stress	NR4A3	337
+AD	Response to oxidative stress	KLF2	388
+AD	Response to oxidative stress	CD36	439
+AD	Response to oxidative stress	IL6	447
+AD	Response to oxidative stress	CYP1B1	472
+AD	Response to oxidative stress	PAM	558
+AD	Response to oxidative stress	SLC7A11	611
+AD	Response to oxidative stress	EDNRA	618
+AD	Response to oxidative stress	PLA2R1	647
+AD	Response to oxidative stress	DDR2	723
+AD	Response to oxidative stress	CA3	779
+AD	Response to oxidative stress	FOS	855
+AD	Response to oxidative stress	PDGFD	863
+AD	Response to oxidative stress	MCTP1	920
+AD	Response to oxidative stress	PAWR	929
+AD	Response to oxidative stress	PENK	957
+AD	Response to oxidative stress	HBA2	1049
+AD	Response to oxidative stress	MT-CO1	1096
+AD	Response to oxidative stress	HSPA1A	1112
+AD	Response to oxidative stress	HBA1	1123
+AD	Response to oxidative stress	AQP1	1398
+AD	Response to oxidative stress	HBB	1424
+AD	Response to heat	IGF1	23
+AD	Response to heat	NOS1	144
+AD	Response to heat	HMOX1	163
+AD	Response to heat	TRPA1	190
+AD	Response to heat	TFEC	202
+AD	Response to heat	HSPB1	207
+AD	Response to heat	P2RX3	234
+AD	Response to heat	THBS1	464
+AD	Response to heat	STAC	540
+AD	Response to heat	BAG3	624
+AD	Response to heat	SCARA5	818
+AD	Response to heat	HSPA1A	1112
+AD	Response to heat	LYN	1589
+AD	TNFα signaling via NF-κB	CD44	32
+AD	TNFα signaling via NF-κB	TNC	46
+AD	TNFα signaling via NF-κB	SLC2A3	68
+AD	TNFα signaling via NF-κB	PTGS2	104
+AD	TNFα signaling via NF-κB	EDN1	119
+AD	TNFα signaling via NF-κB	CXCL2	128
+AD	TNFα signaling via NF-κB	NAMPT	200
+AD	TNFα signaling via NF-κB	SERPINE1	209
+AD	TNFα signaling via NF-κB	CCL2	229
+AD	TNFα signaling via NF-κB	AREG	232
+AD	TNFα signaling via NF-κB	CD69	240
+AD	TNFα signaling via NF-κB	CD83	260
+AD	TNFα signaling via NF-κB	VEGFA	271
+AD	TNFα signaling via NF-κB	HES1	287
+AD	TNFα signaling via NF-κB	CCL20	293
+AD	TNFα signaling via NF-κB	KYNU	307
+AD	TNFα signaling via NF-κB	PLEK	308
+AD	TNFα signaling via NF-κB	F3	325
+AD	TNFα signaling via NF-κB	TNFAIP3	329
+AD	TNFα signaling via NF-κB	NR4A3	337
+AD	TNFα signaling via NF-κB	EGR1	347
+AD	TNFα signaling via NF-κB	INHBA	358
+AD	TNFα signaling via NF-κB	NR4A1	363
+AD	TNFα signaling via NF-κB	IL1B	376
+AD	TNFα signaling via NF-κB	FOSB	378
+AD	TNFα signaling via NF-κB	KLF2	388
+AD	TNFα signaling via NF-κB	LIF	391
+AD	TNFα signaling via NF-κB	SAT1	405
+AD	TNFα signaling via NF-κB	IL6	447
+AD	TNFα signaling via NF-κB	TLR2	455
+AD	TNFα signaling via NF-κB	CCN1	518
+AD	TNFα signaling via NF-κB	TNFAIP8	559
+AD	TNFα signaling via NF-κB	CXCL3	750
+AD	TNFα signaling via NF-κB	CXCL1	751
+AD	TNFα signaling via NF-κB	GEM	782
+AD	TNFα signaling via NF-κB	IL7R	827
+AD	TNFα signaling via NF-κB	CXCL11	839
+AD	TNFα signaling via NF-κB	GPR183	847
+AD	TNFα signaling via NF-κB	FOS	855
+AD	TNFα signaling via NF-κB	OLR1	898
+AD	TNFα signaling via NF-κB	TNFAIP2	1006
+AD	TNFα signaling via NF-κB	TNF	1294
+AD	TNFα signaling via NF-κB	CCL4	1774
+AD	AD-pathology EN genes, up (Mathys 2023)	TENM1	18
+AD	AD-pathology EN genes, up (Mathys 2023)	CDH10	43
+AD	AD-pathology EN genes, up (Mathys 2023)	RAB27B	44
+AD	AD-pathology EN genes, up (Mathys 2023)	SLC2A3	68
+AD	AD-pathology EN genes, up (Mathys 2023)	LNX1	95
+AD	AD-pathology EN genes, up (Mathys 2023)	TRHDE	99
+AD	AD-pathology EN genes, up (Mathys 2023)	SCGN	122
+AD	AD-pathology EN genes, up (Mathys 2023)	DNAH11	201
+AD	AD-pathology EN genes, up (Mathys 2023)	PIP5K1B	219
+AD	AD-pathology EN genes, up (Mathys 2023)	ATRNL1	223
+AD	AD-pathology EN genes, up (Mathys 2023)	INPP4B	233
+AD	AD-pathology EN genes, up (Mathys 2023)	OPRM1	258
+AD	AD-pathology EN genes, up (Mathys 2023)	KHDRBS2	263
+AD	AD-pathology EN genes, up (Mathys 2023)	SLC27A6	281
+AD	AD-pathology EN genes, up (Mathys 2023)	IGFBP5	302
+AD	AD-pathology EN genes, up (Mathys 2023)	EPHA4	310
+AD	AD-pathology EN genes, up (Mathys 2023)	ADGRL2	320
+AD	AD-pathology EN genes, up (Mathys 2023)	SATB2	335
+AD	AD-pathology EN genes, up (Mathys 2023)	HSPH1	345
+AD	AD-pathology EN genes, up (Mathys 2023)	DACH2	382
+AD	AD-pathology EN genes, up (Mathys 2023)	CHN1	396
+AD	AD-pathology EN genes, up (Mathys 2023)	PPARG	411
+AD	AD-pathology EN genes, up (Mathys 2023)	TRPC4	420
+AD	AD-pathology EN genes, up (Mathys 2023)	TMTC1	424
+AD	AD-pathology EN genes, up (Mathys 2023)	EPHA7	442
+AD	AD-pathology EN genes, up (Mathys 2023)	FRAS1	482
+AD	AD-pathology EN genes, up (Mathys 2023)	CCNG2	483
+AD	AD-pathology EN genes, up (Mathys 2023)	CBLN2	514
+AD	AD-pathology EN genes, up (Mathys 2023)	LMO4	519
+AD	AD-pathology EN genes, up (Mathys 2023)	ZNF385B	531
+AD	AD-pathology EN genes, up (Mathys 2023)	NYAP2	534
+AD	AD-pathology EN genes, up (Mathys 2023)	RBMS3	537
+AD	AD-pathology EN genes, up (Mathys 2023)	SLIT2	549
+AD	AD-pathology EN genes, up (Mathys 2023)	CDH18	553
+AD	AD-pathology EN genes, up (Mathys 2023)	SDK1	570
+AD	AD-pathology EN genes, up (Mathys 2023)	FAM135B	582
+AD	AD-pathology EN genes, up (Mathys 2023)	CNKSR2	598
+AD	AD-pathology EN genes, up (Mathys 2023)	CDH8	605
+AD	AD-pathology EN genes, up (Mathys 2023)	CCDC3	615
+AD	AD-pathology EN genes, up (Mathys 2023)	GRM1	638
+AD	AD-pathology EN genes, up (Mathys 2023)	AFF2	677
+AD	AD-pathology EN genes, up (Mathys 2023)	GRIP1	678
+AD	AD-pathology EN genes, up (Mathys 2023)	ART3	684
+AD	AD-pathology EN genes, up (Mathys 2023)	NPY1R	760
+AD	AD-pathology EN genes, up (Mathys 2023)	ADGRV1	764
+AD	AD-pathology EN genes, up (Mathys 2023)	GRIK2	769
+AD	AD-pathology EN genes, up (Mathys 2023)	HCN1	772
+AD	AD-pathology EN genes, up (Mathys 2023)	CA3	779
+AD	AD-pathology EN genes, up (Mathys 2023)	LRFN5	794
+AD	AD-pathology EN genes, up (Mathys 2023)	KCNC2	801
+AD	AD-pathology EN genes, up (Mathys 2023)	NETO1	806
+AD	AD-pathology EN genes, up (Mathys 2023)	CCDC178	812
+AD	AD-pathology EN genes, up (Mathys 2023)	RBFOX3	814
+AD	AD-pathology EN genes, up (Mathys 2023)	HTR1E	832
+AD	AD-pathology EN genes, up (Mathys 2023)	FRMPD4	851
+AD	AD-pathology EN genes, up (Mathys 2023)	ARPP21	892
+AD	AD-pathology EN genes, up (Mathys 2023)	DPY19L1	903
+AD	AD-pathology EN genes, up (Mathys 2023)	MCTP1	920
+AD	AD-pathology EN genes, up (Mathys 2023)	SLC25A18	975
+AD	AD-pathology EN genes, up (Mathys 2023)	CALN1	980
+AD	AD-pathology EN genes, up (Mathys 2023)	LHFPL6	988
+AD	AD-pathology EN genes, up (Mathys 2023)	KCTD16	989
+AD	AD-pathology EN genes, up (Mathys 2023)	EFNA5	995
+AD	AD-pathology EN genes, up (Mathys 2023)	KCNH7	996
+AD	AD-pathology EN genes, up (Mathys 2023)	NELL2	997
+AD	AD-pathology EN genes, up (Mathys 2023)	RALYL	998
+AD	AD-pathology EN genes, up (Mathys 2023)	ROBO2	1003
+AD	AD-pathology EN genes, up (Mathys 2023)	PRKG1	1013
+AD	AD-pathology EN genes, up (Mathys 2023)	KCNQ5	1019
+AD	AD-pathology EN genes, up (Mathys 2023)	AMZ2	1068
+AD	AD-pathology EN genes, up (Mathys 2023)	FAM177B	1076
+AD	AD-pathology EN genes, up (Mathys 2023)	CHSY3	1085
+AD	AD-pathology EN genes, up (Mathys 2023)	CACNA1E	1086
+AD	AD-pathology EN genes, up (Mathys 2023)	HSPA1A	1112
+AD	AD-pathology EN genes, up (Mathys 2023)	MIR137HG	1176
+AD	AD-pathology EN genes, up (Mathys 2023)	LINC01776	1190
+AD	AD-pathology EN genes, up (Mathys 2023)	SLC5A4-AS1	1406
+AD	AD-pathology EN genes, up (Mathys 2023)	LINC01322	1421
+AD	AD-pathology EN genes, up (Mathys 2023)	MIR2052HG	1597
+AD	AD-pathology EN genes, down (Mathys 2023)	CACNG3	10
+AD	AD-pathology EN genes, down (Mathys 2023)	PRKCH	33
+AD	AD-pathology EN genes, down (Mathys 2023)	ZPBP	48
+AD	AD-pathology EN genes, down (Mathys 2023)	ST6GAL1	105
+AD	AD-pathology EN genes, down (Mathys 2023)	RPH3A	143
+AD	AD-pathology EN genes, down (Mathys 2023)	SLC26A4	147
+AD	AD-pathology EN genes, down (Mathys 2023)	TIMP3	160
+AD	AD-pathology EN genes, down (Mathys 2023)	DGKH	177
+AD	AD-pathology EN genes, down (Mathys 2023)	CRYM	180
+AD	AD-pathology EN genes, down (Mathys 2023)	XYLT1	182
+AD	AD-pathology EN genes, down (Mathys 2023)	ACSS3	244
+AD	AD-pathology EN genes, down (Mathys 2023)	ADTRP	254
+AD	AD-pathology EN genes, down (Mathys 2023)	UST	257
+AD	AD-pathology EN genes, down (Mathys 2023)	PDE10A	269
+AD	AD-pathology EN genes, down (Mathys 2023)	NR4A1	363
+AD	AD-pathology EN genes, down (Mathys 2023)	ABCC4	375
+AD	AD-pathology EN genes, down (Mathys 2023)	VGF	393
+AD	AD-pathology EN genes, down (Mathys 2023)	CHI3L1	417
+AD	AD-pathology EN genes, down (Mathys 2023)	STAT4	474
+AD	AD-pathology EN genes, down (Mathys 2023)	TRPC3	481
+AD	AD-pathology EN genes, down (Mathys 2023)	FRMD6	498
+AD	AD-pathology EN genes, down (Mathys 2023)	ST6GAL2	528
+AD	AD-pathology EN genes, down (Mathys 2023)	OSBPL10	539
+AD	AD-pathology EN genes, down (Mathys 2023)	LRTM1	542
+AD	AD-pathology EN genes, down (Mathys 2023)	GABRA6	563
+AD	AD-pathology EN genes, down (Mathys 2023)	MLIP	564
+AD	AD-pathology EN genes, down (Mathys 2023)	CRH	577
+AD	AD-pathology EN genes, down (Mathys 2023)	PAMR1	593
+AD	AD-pathology EN genes, down (Mathys 2023)	SLC22A8	596
+AD	AD-pathology EN genes, down (Mathys 2023)	MCHR2	626
+AD	AD-pathology EN genes, down (Mathys 2023)	PID1	651
+AD	AD-pathology EN genes, down (Mathys 2023)	ANKFN1	652
+AD	AD-pathology EN genes, down (Mathys 2023)	CHST9	655
+AD	AD-pathology EN genes, down (Mathys 2023)	SORCS3	688
+AD	AD-pathology EN genes, down (Mathys 2023)	CABP1	700
+AD	AD-pathology EN genes, down (Mathys 2023)	COL26A1	711
+AD	AD-pathology EN genes, down (Mathys 2023)	OTOGL	798
+AD	AD-pathology EN genes, down (Mathys 2023)	ZBBX	835
+AD	AD-pathology EN genes, down (Mathys 2023)	P2RY14	914
+AD	AD-pathology EN genes, down (Mathys 2023)	VWA3A	916
+AD	AD-pathology EN genes, down (Mathys 2023)	PCSK1	919
+AD	AD-pathology EN genes, down (Mathys 2023)	PCED1B	942
+AD	AD-pathology EN genes, down (Mathys 2023)	C12orf40	944
+AD	AD-pathology EN genes, down (Mathys 2023)	GABRG3	963
+AD	AD-pathology EN genes, down (Mathys 2023)	CACNB4	966
+AD	AD-pathology EN genes, down (Mathys 2023)	GALNT17	1007
+AD	AD-pathology EN genes, down (Mathys 2023)	ERC2	1038
+AD	AD-pathology EN genes, down (Mathys 2023)	IL1RAPL2	1055
+AD	AD-pathology EN genes, down (Mathys 2023)	SVIL	1073
+AD	AD-pathology EN genes, down (Mathys 2023)	DLGAP2	1084
+AD	AD-pathology EN genes, down (Mathys 2023)	TEX41	1199
+AD	AD-pathology EN genes, down (Mathys 2023)	SLC8A1-AS1	1205
+AD	AD-pathology EN genes, down (Mathys 2023)	CCDC192	1260
+AD	AD-pathology EN genes, down (Mathys 2023)	FGF12-AS1	1270
+AD	AD-pathology EN genes, down (Mathys 2023)	DPP10-AS3	1275
+AD	AD-pathology EN genes, down (Mathys 2023)	CHRM3-AS2	1304
+AD	AD-pathology EN genes, down (Mathys 2023)	DIAPH2-AS1	1353
+AD	AD-pathology EN genes, down (Mathys 2023)	CELF2-AS2	1387
+AD	AD-pathology EN genes, down (Mathys 2023)	STARD4-AS1	1434
+AD	AD-pathology EN genes, down (Mathys 2023)	FAM198B-AS1	1448
+AD	AD-pathology EN genes, down (Mathys 2023)	LINC02217	1451
+AD	AD-pathology EN genes, down (Mathys 2023)	LINC02220	1452
+AD	AD-pathology EN genes, down (Mathys 2023)	LINC02112	1487
+AD	AD-pathology EN genes, down (Mathys 2023)	PVT1	1492
+AD	AD-pathology EN genes, down (Mathys 2023)	TRMT9B	1510
+AD	AD-pathology EN genes, down (Mathys 2023)	FRMD6-AS2	1660
+AD	AD-pathology EN genes, down (Mathys 2023)	ANKRD34C-AS1	1679
+AD	AD-pathology EN genes, down (Mathys 2023)	LINC02253	1684
+AD	AD-pathology EN genes, down (Mathys 2023)	LINC02343	1762
+AD	AD-pathology EN genes, down (Mathys 2023)	CSNKA2IP	1816
+COVID	Interferon α/β signaling	OAS1	156
+COVID	Interferon α/β signaling	SAMHD1	219
+COVID	Interferon α/β signaling	OAS3	349
+COVID	Interferon α/β signaling	PTPN6	353
+COVID	Interferon α/β signaling	STAT1	398
+COVID	Interferon α/β signaling	IFIT3	444
+COVID	Interferon α/β signaling	IFIT2	445
+COVID	Interferon α/β signaling	EGR1	454
+COVID	Interferon α/β signaling	IRF1	507
+COVID	Interferon α/β signaling	IFI6	524
+COVID	Interferon α/β signaling	IRF5	545
+COVID	Interferon α/β signaling	RSAD2	610
+COVID	Interferon α/β signaling	OASL	623
+COVID	Interferon α/β signaling	IRF4	656
+COVID	Interferon α/β signaling	IRF8	709
+COVID	Interferon α/β signaling	IFITM3	716
+COVID	Interferon α/β signaling	MX1	853
+COVID	Interferon α/β signaling	IFI27	997
+COVID	Interferon α/β signaling	IFNB1	1117
+COVID	Interferon α/β signaling	MX2	1240
+COVID	Interferon α/β signaling	SOCS3	1257
+COVID	Interferon α/β signaling	IFITM2	1267
+COVID	Interferon α/β signaling	IRF7	1272
+COVID	Interferon α/β signaling	IFIT1	1277
+COVID	Interferon α/β signaling	IFITM1	1278
+COVID	Interferon α/β signaling	ISG15	1304
+COVID	Interferon α/β signaling	IFNA14	1656
+COVID	Interferon-α response	LAP3	1
+COVID	Interferon-α response	CD74	38
+COVID	Interferon-α response	IL4R	118
+COVID	Interferon-α response	LAMP3	122
+COVID	Interferon-α response	OAS1	156
+COVID	Interferon-α response	RIPK2	249
+COVID	Interferon-α response	IFIT3	444
+COVID	Interferon-α response	IFIT2	445
+COVID	Interferon-α response	IRF1	507
+COVID	Interferon-α response	EPSTI1	602
+COVID	Interferon-α response	RSAD2	610
+COVID	Interferon-α response	OASL	623
+COVID	Interferon-α response	GMPR	655
+COVID	Interferon-α response	CASP1	664
+COVID	Interferon-α response	IFI44L	669
+COVID	Interferon-α response	IFITM3	716
+COVID	Interferon-α response	MX1	853
+COVID	Interferon-α response	LY6E	900
+COVID	Interferon-α response	IFI27	997
+COVID	Interferon-α response	CXCL10	1067
+COVID	Interferon-α response	CXCL11	1068
+COVID	Interferon-α response	IFITM2	1267
+COVID	Interferon-α response	IRF7	1272
+COVID	Interferon-α response	IFITM1	1278
+COVID	Interferon-α response	ISG15	1304
+COVID	Interferon-α response	PLSCR1	1311
+COVID	Interferon-α response	IFI30	1620
+COVID	Interferon-γ response	LAP3	1
+COVID	Interferon-γ response	CD38	4
+COVID	Interferon-γ response	CD74	38
+COVID	Interferon-γ response	SLAMF7	46
+COVID	Interferon-γ response	PTGS2	106
+COVID	Interferon-γ response	IL4R	118
+COVID	Interferon-γ response	ICAM1	163
+COVID	Interferon-γ response	IL2RB	197
+COVID	Interferon-γ response	HIF1A	205
+COVID	Interferon-γ response	NFKBIA	208
+COVID	Interferon-γ response	CD40	210
+COVID	Interferon-γ response	SAMHD1	219
+COVID	Interferon-γ response	RIPK2	249
+COVID	Interferon-γ response	NAMPT	274
+COVID	Interferon-γ response	CCL7	313
+COVID	Interferon-γ response	CCL2	314
+COVID	Interferon-γ response	CD69	338
+COVID	Interferon-γ response	OAS3	349
+COVID	Interferon-γ response	PTPN6	353
+COVID	Interferon-γ response	SOD2	360
+COVID	Interferon-γ response	CD86	384
+COVID	Interferon-γ response	STAT1	398
+COVID	Interferon-γ response	TNFAIP3	431
+COVID	Interferon-γ response	IFIT3	444
+COVID	Interferon-γ response	IFIT2	445
+COVID	Interferon-γ response	TNFSF10	461
+COVID	Interferon-γ response	ARL4A	468
+COVID	Interferon-γ response	SSPN	477
+COVID	Interferon-γ response	TNFAIP6	484
+COVID	Interferon-γ response	CDKN1A	497
+COVID	Interferon-γ response	MT2A	506
+COVID	Interferon-γ response	IRF1	507
+COVID	Interferon-γ response	FGL2	535
+COVID	Interferon-γ response	IRF5	545
+COVID	Interferon-γ response	IDO1	579
+COVID	Interferon-γ response	GCH1	585
+COVID	Interferon-γ response	EPSTI1	602
+COVID	Interferon-γ response	RSAD2	610
+COVID	Interferon-γ response	OASL	623
+COVID	Interferon-γ response	IL6	640
+COVID	Interferon-γ response	IRF4	656
+COVID	Interferon-γ response	CASP1	664
+COVID	Interferon-γ response	IFI44L	669
+COVID	Interferon-γ response	CXCL9	687
+COVID	Interferon-γ response	IRF8	709
+COVID	Interferon-γ response	SECTM1	713
+COVID	Interferon-γ response	IFITM3	716
+COVID	Interferon-γ response	XCL1	728
+COVID	Interferon-γ response	GZMA	756
+COVID	Interferon-γ response	SERPING1	778
+COVID	Interferon-γ response	FCGR1A	790
+COVID	Interferon-γ response	BANK1	811
+COVID	Interferon-γ response	MX1	853
+COVID	Interferon-γ response	AUTS2	858
+COVID	Interferon-γ response	LY6E	900
+COVID	Interferon-γ response	VCAM1	919
+COVID	Interferon-γ response	IFI27	997
+COVID	Interferon-γ response	VAMP5	1060
+COVID	Interferon-γ response	CXCL10	1067
+COVID	Interferon-γ response	CXCL11	1068
+COVID	Interferon-γ response	FPR1	1105
+COVID	Interferon-γ response	MYD88	1135
+COVID	Interferon-γ response	SELP	1151
+COVID	Interferon-γ response	P2RY14	1157
+COVID	Interferon-γ response	CIITA	1200
+COVID	Interferon-γ response	MX2	1240
+COVID	Interferon-γ response	SOCS3	1257
+COVID	Interferon-γ response	PDE4B	1258
+COVID	Interferon-γ response	IFITM2	1267
+COVID	Interferon-γ response	TNFAIP2	1268
+COVID	Interferon-γ response	IRF7	1272
+COVID	Interferon-γ response	IFIT1	1277
+COVID	Interferon-γ response	ISG15	1304
+COVID	Interferon-γ response	PLSCR1	1311
+COVID	Interferon-γ response	HLA-DRB1	1330
+COVID	Interferon-γ response	HLA-DQA1	1344
+COVID	Interferon-γ response	PELI1	1351
+COVID	Interferon-γ response	PNP	1385
+COVID	Interferon-γ response	HLA-DMA	1397
+COVID	Interferon-γ response	KLRK1	1609
+COVID	Interferon-γ response	IFI30	1620
+COVID	Interferon-γ response	CCL5	1896
+COVID	MHC class II protein complex	CD74	38
+COVID	MHC class II protein complex	HLA-DQB1	1197
+COVID	MHC class II protein complex	HLA-DRB1	1330
+COVID	MHC class II protein complex	HLA-DQA1	1344
+COVID	MHC class II protein complex	HLA-DRB5	1377
+COVID	MHC class II protein complex	HLA-DOA	1396
+COVID	MHC class II protein complex	HLA-DMA	1397
+COVID	MHC class II protein complex	HLA-DRA	1398
+COVID	MHC class II protein complex	HLA-DPB1	1631
+COVID	MHC class II protein complex	HLA-DPA1	1677
+COVID	MHC class II protein complex	HLA-DQA2	1720
+COVID	MHC class II protein complex	HLA-DOB	1745
+COVID	MHC class II protein complex	HLA-DMB	1761
+COVID	TNFα signaling via NF-κB	PLAUR	25
+COVID	TNFα signaling via NF-κB	MXD1	77
+COVID	TNFα signaling via NF-κB	SLC2A3	78
+COVID	TNFα signaling via NF-κB	KLF6	91
+COVID	TNFα signaling via NF-κB	BCL3	94
+COVID	TNFα signaling via NF-κB	ATP2B1	101
+COVID	TNFα signaling via NF-κB	PTGS2	106
+COVID	TNFα signaling via NF-κB	FOSL2	113
+COVID	TNFα signaling via NF-κB	EDN1	123
+COVID	TNFα signaling via NF-κB	CXCL2	127
+COVID	TNFα signaling via NF-κB	PPP1R15A	144
+COVID	TNFα signaling via NF-κB	ICAM1	163
+COVID	TNFα signaling via NF-κB	GADD45B	186
+COVID	TNFα signaling via NF-κB	NFKBIA	208
+COVID	TNFα signaling via NF-κB	TSC22D1	234
+COVID	TNFα signaling via NF-κB	RIPK2	249
+COVID	TNFα signaling via NF-κB	NAMPT	274
+COVID	TNFα signaling via NF-κB	SERPINE1	284
+COVID	TNFα signaling via NF-κB	MAP3K8	304
+COVID	TNFα signaling via NF-κB	CCL2	314
+COVID	TNFα signaling via NF-κB	AREG	324
+COVID	TNFα signaling via NF-κB	CCND1	333
+COVID	TNFα signaling via NF-κB	CD69	338
+COVID	TNFα signaling via NF-κB	SOD2	360
+COVID	TNFα signaling via NF-κB	CD83	363
+COVID	TNFα signaling via NF-κB	VEGFA	368
+COVID	TNFα signaling via NF-κB	HBEGF	371
+COVID	TNFα signaling via NF-κB	IL12B	377
+COVID	TNFα signaling via NF-κB	BCL6	383
+COVID	TNFα signaling via NF-κB	HES1	385
+COVID	TNFα signaling via NF-κB	IL1A	391
+COVID	TNFα signaling via NF-κB	CCL20	392
+COVID	TNFα signaling via NF-κB	ID2	406
+COVID	TNFα signaling via NF-κB	KYNU	408
+COVID	TNFα signaling via NF-κB	PLEK	409
+COVID	TNFα signaling via NF-κB	GADD45A	417
+COVID	TNFα signaling via NF-κB	F3	425
+COVID	TNFα signaling via NF-κB	TNFAIP3	431
+COVID	TNFα signaling via NF-κB	SGK1	433
+COVID	TNFα signaling via NF-κB	NR4A3	436
+COVID	TNFα signaling via NF-κB	IFIT2	445
+COVID	TNFα signaling via NF-κB	DUSP1	446
+COVID	TNFα signaling via NF-κB	EGR1	454
+COVID	TNFα signaling via NF-κB	DUSP4	455
+COVID	TNFα signaling via NF-κB	INHBA	467
+COVID	TNFα signaling via NF-κB	PLAU	472
+COVID	TNFα signaling via NF-κB	EGR2	474
+COVID	TNFα signaling via NF-κB	NR4A1	479
+COVID	TNFα signaling via NF-κB	TNFAIP6	484
+COVID	TNFα signaling via NF-κB	G0S2	486
+COVID	TNFα signaling via NF-κB	CDKN1A	497
+COVID	TNFα signaling via NF-κB	IRF1	507
+COVID	TNFα signaling via NF-κB	IL1B	510
+COVID	TNFα signaling via NF-κB	TNFSF9	511
+COVID	TNFα signaling via NF-κB	FOSB	513
+COVID	TNFα signaling via NF-κB	BMP2	517
+COVID	TNFα signaling via NF-κB	ZFP36	537
+COVID	TNFα signaling via NF-κB	LIF	542
+COVID	TNFα signaling via NF-κB	SAT1	558
+COVID	TNFα signaling via NF-κB	LDLR	560
+COVID	TNFα signaling via NF-κB	NINJ1	582
+COVID	TNFα signaling via NF-κB	GCH1	585
+COVID	TNFα signaling via NF-κB	PTPRE	590
+COVID	TNFα signaling via NF-κB	KDM6B	593
+COVID	TNFα signaling via NF-κB	BHLHE40	608
+COVID	TNFα signaling via NF-κB	IL6	640
+COVID	TNFα signaling via NF-κB	KLF4	648
+COVID	TNFα signaling via NF-κB	MYC	652
+COVID	TNFα signaling via NF-κB	TUBB2A	657
+COVID	TNFα signaling via NF-κB	IER3	659
+COVID	TNFα signaling via NF-κB	TLR2	662
+COVID	TNFα signaling via NF-κB	DUSP5	673
+COVID	TNFα signaling via NF-κB	PHLDA1	693
+COVID	TNFα signaling via NF-κB	BCL2A1	703
+COVID	TNFα signaling via NF-κB	MCL1	733
+COVID	TNFα signaling via NF-κB	RHOB	740
+COVID	TNFα signaling via NF-κB	ACKR3	745
+COVID	TNFα signaling via NF-κB	PLK2	755
+COVID	TNFα signaling via NF-κB	IL18	795
+COVID	TNFα signaling via NF-κB	NR4A2	814
+COVID	TNFα signaling via NF-κB	KLF10	828
+COVID	TNFα signaling via NF-κB	ETS2	852
+COVID	TNFα signaling via NF-κB	DUSP2	856
+COVID	TNFα signaling via NF-κB	IFNGR2	871
+COVID	TNFα signaling via NF-κB	BTG2	878
+COVID	TNFα signaling via NF-κB	SLC2A6	890
+COVID	TNFα signaling via NF-κB	IER2	899
+COVID	TNFα signaling via NF-κB	ATF3	924
+COVID	TNFα signaling via NF-κB	TIPARP	947
+COVID	TNFα signaling via NF-κB	PTX3	948
+COVID	TNFα signaling via NF-κB	CXCL3	952
+COVID	TNFα signaling via NF-κB	CXCL1	956
+COVID	TNFα signaling via NF-κB	CSF2	969
+COVID	TNFα signaling via NF-κB	GEM	978
+COVID	TNFα signaling via NF-κB	ABCA1	980
+COVID	TNFα signaling via NF-κB	NFIL3	981
+COVID	TNFα signaling via NF-κB	IL7R	1059
+COVID	TNFα signaling via NF-κB	CXCL10	1067
+COVID	TNFα signaling via NF-κB	CXCL11	1068
+COVID	TNFα signaling via NF-κB	GPR183	1077
+COVID	TNFα signaling via NF-κB	FOS	1091
+COVID	TNFα signaling via NF-κB	PFKFB3	1097
+COVID	TNFα signaling via NF-κB	JUNB	1106
+COVID	TNFα signaling via NF-κB	PTGER4	1110
+COVID	TNFα signaling via NF-κB	CEBPB	1126
+COVID	TNFα signaling via NF-κB	TRIB1	1139
+COVID	TNFα signaling via NF-κB	OLR1	1142
+COVID	TNFα signaling via NF-κB	JUN	1184
+COVID	TNFα signaling via NF-κB	EGR3	1199
+COVID	TNFα signaling via NF-κB	PHLDA2	1220
+COVID	TNFα signaling via NF-κB	SOCS3	1257
+COVID	TNFα signaling via NF-κB	PDE4B	1258
+COVID	TNFα signaling via NF-κB	MAFF	1264
+COVID	TNFα signaling via NF-κB	TNFAIP2	1268
+COVID	TNFα signaling via NF-κB	SERPINB2	1359
+COVID	TNFα signaling via NF-κB	CEBPD	1622
+COVID	TNFα signaling via NF-κB	TNF	1688
+COVID	TNFα signaling via NF-κB	CCL5	1896
+COVID	TNFα signaling via NF-κB	CCL4	1919
+COVID	TNFα signaling via NF-κB	MARCKS	1941
+COVID	Inflammatory response	STAB1	22
+COVID	Inflammatory response	PLAUR	25
+COVID	Inflammatory response	MARCO	37
+COVID	Inflammatory response	TNFRSF1B	47
+COVID	Inflammatory response	MSR1	56
+COVID	Inflammatory response	MXD1	77
+COVID	Inflammatory response	GNA15	80
+COVID	Inflammatory response	CALCRL	85
+COVID	Inflammatory response	KLF6	91
+COVID	Inflammatory response	ATP2B1	101
+COVID	Inflammatory response	IL4R	118
+COVID	Inflammatory response	LAMP3	122
+COVID	Inflammatory response	EDN1	123
+COVID	Inflammatory response	CD82	138
+COVID	Inflammatory response	RGS1	162
+COVID	Inflammatory response	ICAM1	163
+COVID	Inflammatory response	OSM	189
+COVID	Inflammatory response	IL2RB	197
+COVID	Inflammatory response	HIF1A	205
+COVID	Inflammatory response	NFKBIA	208
+COVID	Inflammatory response	CD40	210
+COVID	Inflammatory response	TIMP1	227
+COVID	Inflammatory response	CCL22	236
+COVID	Inflammatory response	CCL17	237
+COVID	Inflammatory response	MEFV	241
+COVID	Inflammatory response	AQP9	245
+COVID	Inflammatory response	RIPK2	249
+COVID	Inflammatory response	EBI3	262
+COVID	Inflammatory response	ICAM4	265
+COVID	Inflammatory response	NAMPT	274
+COVID	Inflammatory response	MET	278
+COVID	Inflammatory response	SERPINE1	284
+COVID	Inflammatory response	AHR	288
+COVID	Inflammatory response	CSF3	309
+COVID	Inflammatory response	CCL7	313
+COVID	Inflammatory response	CCL2	314
+COVID	Inflammatory response	CD69	338
+COVID	Inflammatory response	HBEGF	371
+COVID	Inflammatory response	IL12B	377
+COVID	Inflammatory response	IL1A	391
+COVID	Inflammatory response	CCL20	392
+COVID	Inflammatory response	IL18RAP	402
+COVID	Inflammatory response	F3	425
+COVID	Inflammatory response	CSF3R	437
+COVID	Inflammatory response	TNFSF10	461
+COVID	Inflammatory response	INHBA	467
+COVID	Inflammatory response	TNFAIP6	484
+COVID	Inflammatory response	CDKN1A	497
+COVID	Inflammatory response	EREG	502
+COVID	Inflammatory response	IRF1	507
+COVID	Inflammatory response	IL1B	510
+COVID	Inflammatory response	TNFSF9	511
+COVID	Inflammatory response	CD70	512
+COVID	Inflammatory response	FFAR2	521
+COVID	Inflammatory response	CCR7	522
+COVID	Inflammatory response	LIF	542
+COVID	Inflammatory response	LDLR	560
+COVID	Inflammatory response	GCH1	585
+COVID	Inflammatory response	PTPRE	590
+COVID	Inflammatory response	IL6	640
+COVID	Inflammatory response	IL10	645
+COVID	Inflammatory response	SLC31A2	649
+COVID	Inflammatory response	MYC	652
+COVID	Inflammatory response	RNF144B	660
+COVID	Inflammatory response	TLR2	662
+COVID	Inflammatory response	SLC28A2	668
+COVID	Inflammatory response	CXCL9	687
+COVID	Inflammatory response	RGS16	732
+COVID	Inflammatory response	ADM	777
+COVID	Inflammatory response	IL18	795
+COVID	Inflammatory response	IFNGR2	871
+COVID	Inflammatory response	BTG2	878
+COVID	Inflammatory response	LY6E	900
+COVID	Inflammatory response	NLRP3	920
+COVID	Inflammatory response	PROK2	938
+COVID	Inflammatory response	ABCA1	980
+COVID	Inflammatory response	CYBB	984
+COVID	Inflammatory response	AXL	1028
+COVID	Inflammatory response	BEST1	1045
+COVID	Inflammatory response	IL7R	1059
+COVID	Inflammatory response	CXCL10	1067
+COVID	Inflammatory response	CXCL11	1068
+COVID	Inflammatory response	PTAFR	1070
+COVID	Inflammatory response	CXCL8	1072
+COVID	Inflammatory response	GPR183	1077
+COVID	Inflammatory response	CD14	1094
+COVID	Inflammatory response	FPR1	1105
+COVID	Inflammatory response	PTGER4	1110
+COVID	Inflammatory response	C3AR1	1118
+COVID	Inflammatory response	CXCR6	1125
+COVID	Inflammatory response	OLR1	1142
+COVID	Inflammatory response	CHST2	1158
+COVID	Inflammatory response	TNFSF15	1219
+COVID	Inflammatory response	PDE4B	1258
+COVID	Inflammatory response	GP1BA	1269
+COVID	Inflammatory response	IRF7	1272
+COVID	Inflammatory response	IFITM1	1278
+COVID	Inflammatory response	C5AR1	1353
+COVID	Inflammatory response	LYN	1820
+COVID	Inflammatory response	ITGB3	1857
+COVID	Inflammatory response	CCL5	1896
+COVID	IL-6/JAK/STAT3 signaling	CD38	4
+COVID	IL-6/JAK/STAT3 signaling	CD9	21
+COVID	IL-6/JAK/STAT3 signaling	TNFRSF1B	47
+COVID	IL-6/JAK/STAT3 signaling	IL17RB	73
+COVID	IL-6/JAK/STAT3 signaling	IL4R	118
+COVID	IL-6/JAK/STAT3 signaling	HMOX1	194
+COVID	IL-6/JAK/STAT3 signaling	EBI3	262
+COVID	IL-6/JAK/STAT3 signaling	DNTT	296
+COVID	IL-6/JAK/STAT3 signaling	MAP3K8	304
+COVID	IL-6/JAK/STAT3 signaling	CCL7	313
+COVID	IL-6/JAK/STAT3 signaling	LTBR	347
+COVID	IL-6/JAK/STAT3 signaling	STAT1	398
+COVID	IL-6/JAK/STAT3 signaling	IL1R2	401
+COVID	IL-6/JAK/STAT3 signaling	CSF3R	437
+COVID	IL-6/JAK/STAT3 signaling	IRF1	507
+COVID	IL-6/JAK/STAT3 signaling	IL1B	510
+COVID	IL-6/JAK/STAT3 signaling	IL13RA1	583
+COVID	IL-6/JAK/STAT3 signaling	CD36	625
+COVID	IL-6/JAK/STAT3 signaling	IL6	640
+COVID	IL-6/JAK/STAT3 signaling	TLR2	662
+COVID	IL-6/JAK/STAT3 signaling	CXCL9	687
+COVID	IL-6/JAK/STAT3 signaling	TNFRSF21	759
+COVID	IL-6/JAK/STAT3 signaling	CXCL13	840
+COVID	IL-6/JAK/STAT3 signaling	IFNGR2	871
+COVID	IL-6/JAK/STAT3 signaling	CXCL3	952
+COVID	IL-6/JAK/STAT3 signaling	PF4	955
+COVID	IL-6/JAK/STAT3 signaling	CXCL1	956
+COVID	IL-6/JAK/STAT3 signaling	CCR1	958
+COVID	IL-6/JAK/STAT3 signaling	CSF2	969
+COVID	IL-6/JAK/STAT3 signaling	CXCL10	1067
+COVID	IL-6/JAK/STAT3 signaling	CXCL11	1068
+COVID	IL-6/JAK/STAT3 signaling	CD14	1094
+COVID	IL-6/JAK/STAT3 signaling	MYD88	1135
+COVID	IL-6/JAK/STAT3 signaling	JUN	1184
+COVID	IL-6/JAK/STAT3 signaling	SOCS3	1257
+COVID	IL-6/JAK/STAT3 signaling	IL3RA	1270
+COVID	IL-6/JAK/STAT3 signaling	CSF2RA	1371
+COVID	IL-6/JAK/STAT3 signaling	LTB	1652
+COVID	IL-6/JAK/STAT3 signaling	TNF	1688
+COVID	IL-6/JAK/STAT3 signaling	ITGB3	1857
+COVID	Non-classical monocyte (Travaglini 2020)	FGR	0
+COVID	Non-classical monocyte (Travaglini 2020)	ALDH3B1	11
+COVID	Non-classical monocyte (Travaglini 2020)	TYROBP	27
+COVID	Non-classical monocyte (Travaglini 2020)	BID	33
+COVID	Non-classical monocyte (Travaglini 2020)	SLC11A1	35
+COVID	Non-classical monocyte (Travaglini 2020)	TYMP	42
+COVID	Non-classical monocyte (Travaglini 2020)	TNFRSF1B	47
+COVID	Non-classical monocyte (Travaglini 2020)	POU2F2	48
+COVID	Non-classical monocyte (Travaglini 2020)	RELT	72
+COVID	Non-classical monocyte (Travaglini 2020)	TBXAS1	76
+COVID	Non-classical monocyte (Travaglini 2020)	SPI1	88
+COVID	Non-classical monocyte (Travaglini 2020)	ATP1B3	98
+COVID	Non-classical monocyte (Travaglini 2020)	STXBP2	117
+COVID	Non-classical monocyte (Travaglini 2020)	GSTP1	136
+COVID	Non-classical monocyte (Travaglini 2020)	FCN1	139
+COVID	Non-classical monocyte (Travaglini 2020)	PILRA	140
+COVID	Non-classical monocyte (Travaglini 2020)	FTL	145
+COVID	Non-classical monocyte (Travaglini 2020)	OAS1	156
+COVID	Non-classical monocyte (Travaglini 2020)	IRAK3	164
+COVID	Non-classical monocyte (Travaglini 2020)	HMOX1	194
+COVID	Non-classical monocyte (Travaglini 2020)	HCK	218
+COVID	Non-classical monocyte (Travaglini 2020)	CST3	221
+COVID	Non-classical monocyte (Travaglini 2020)	TIMP1	227
+COVID	Non-classical monocyte (Travaglini 2020)	TNFSF13B	230
+COVID	Non-classical monocyte (Travaglini 2020)	COTL1	239
+COVID	Non-classical monocyte (Travaglini 2020)	CPPED1	243
+COVID	Non-classical monocyte (Travaglini 2020)	DMXL2	247
+COVID	Non-classical monocyte (Travaglini 2020)	ASAH1	252
+COVID	Non-classical monocyte (Travaglini 2020)	FCGRT	253
+COVID	Non-classical monocyte (Travaglini 2020)	CPVL	280
+COVID	Non-classical monocyte (Travaglini 2020)	PPP1R17	283
+COVID	Non-classical monocyte (Travaglini 2020)	ZFAND5	294
+COVID	Non-classical monocyte (Travaglini 2020)	CDH23	301
+COVID	Non-classical monocyte (Travaglini 2020)	NEURL1	303
+COVID	Non-classical monocyte (Travaglini 2020)	ABI3	316
+COVID	Non-classical monocyte (Travaglini 2020)	UNC119	322
+COVID	Non-classical monocyte (Travaglini 2020)	UNC93B1	330
+COVID	Non-classical monocyte (Travaglini 2020)	LTA4H	341
+COVID	Non-classical monocyte (Travaglini 2020)	PTPN6	353
+COVID	Non-classical monocyte (Travaglini 2020)	CD86	384
+COVID	Non-classical monocyte (Travaglini 2020)	HES1	385
+COVID	Non-classical monocyte (Travaglini 2020)	KYNU	408
+COVID	Non-classical monocyte (Travaglini 2020)	AMPD2	414
+COVID	Non-classical monocyte (Travaglini 2020)	NCF2	416
+COVID	Non-classical monocyte (Travaglini 2020)	NPC2	438
+COVID	Non-classical monocyte (Travaglini 2020)	DUSP1	446
+COVID	Non-classical monocyte (Travaglini 2020)	TNFSF10	461
+COVID	Non-classical monocyte (Travaglini 2020)	FAM110A	519
+COVID	Non-classical monocyte (Travaglini 2020)	RRAS	523
+COVID	Non-classical monocyte (Travaglini 2020)	CFP	525
+COVID	Non-classical monocyte (Travaglini 2020)	ADGRE2	531
+COVID	Non-classical monocyte (Travaglini 2020)	FGL2	535
+COVID	Non-classical monocyte (Travaglini 2020)	SAT1	558
+COVID	Non-classical monocyte (Travaglini 2020)	THEMIS2	573
+COVID	Non-classical monocyte (Travaglini 2020)	GCH1	585
+COVID	Non-classical monocyte (Travaglini 2020)	PRAM1	604
+COVID	Non-classical monocyte (Travaglini 2020)	LMO2	627
+COVID	Non-classical monocyte (Travaglini 2020)	TTYH3	641
+COVID	Non-classical monocyte (Travaglini 2020)	KLF4	648
+COVID	Non-classical monocyte (Travaglini 2020)	SLC31A2	649
+COVID	Non-classical monocyte (Travaglini 2020)	TLR4	650
+COVID	Non-classical monocyte (Travaglini 2020)	RNF144B	660
+COVID	Non-classical monocyte (Travaglini 2020)	CASP1	664
+COVID	Non-classical monocyte (Travaglini 2020)	NAAA	686
+COVID	Non-classical monocyte (Travaglini 2020)	DUSP6	694
+COVID	Non-classical monocyte (Travaglini 2020)	BCL2A1	703
+COVID	Non-classical monocyte (Travaglini 2020)	ITGAX	706
+COVID	Non-classical monocyte (Travaglini 2020)	SECTM1	713
+COVID	Non-classical monocyte (Travaglini 2020)	IFITM3	716
+COVID	Non-classical monocyte (Travaglini 2020)	SIGLEC10	719
+COVID	Non-classical monocyte (Travaglini 2020)	C1orf162	725
+COVID	Non-classical monocyte (Travaglini 2020)	LYST	739
+COVID	Non-classical monocyte (Travaglini 2020)	RHOB	740
+COVID	Non-classical monocyte (Travaglini 2020)	NFKBIZ	749
+COVID	Non-classical monocyte (Travaglini 2020)	FGD2	761
+COVID	Non-classical monocyte (Travaglini 2020)	TCF7L2	775
+COVID	Non-classical monocyte (Travaglini 2020)	SIDT2	786
+COVID	Non-classical monocyte (Travaglini 2020)	RGS18	793
+COVID	Non-classical monocyte (Travaglini 2020)	RHOC	830
+COVID	Non-classical monocyte (Travaglini 2020)	SLC7A7	832
+COVID	Non-classical monocyte (Travaglini 2020)	PIK3AP1	833
+COVID	Non-classical monocyte (Travaglini 2020)	ETS2	852
+COVID	Non-classical monocyte (Travaglini 2020)	FCER1G	870
+COVID	Non-classical monocyte (Travaglini 2020)	HK3	897
+COVID	Non-classical monocyte (Travaglini 2020)	ZNF385A	904
+COVID	Non-classical monocyte (Travaglini 2020)	CXCL16	908
+COVID	Non-classical monocyte (Travaglini 2020)	SCIMP	909
+COVID	Non-classical monocyte (Travaglini 2020)	CTSS	932
+COVID	Non-classical monocyte (Travaglini 2020)	S100A11	934
+COVID	Non-classical monocyte (Travaglini 2020)	BRI3	974
+COVID	Non-classical monocyte (Travaglini 2020)	CYBB	984
+COVID	Non-classical monocyte (Travaglini 2020)	SMCO4	1000
+COVID	Non-classical monocyte (Travaglini 2020)	CKB	1002
+COVID	Non-classical monocyte (Travaglini 2020)	MS4A7	1016
+COVID	Non-classical monocyte (Travaglini 2020)	C15orf39	1018
+COVID	Non-classical monocyte (Travaglini 2020)	CD300C	1042
+COVID	Non-classical monocyte (Travaglini 2020)	CD300A	1043
+COVID	Non-classical monocyte (Travaglini 2020)	FTH1	1046
+COVID	Non-classical monocyte (Travaglini 2020)	LGALS9	1062
+COVID	Non-classical monocyte (Travaglini 2020)	ZEB2	1078
+COVID	Non-classical monocyte (Travaglini 2020)	MTSS1	1101
+COVID	Non-classical monocyte (Travaglini 2020)	CEBPB	1126
+COVID	Non-classical monocyte (Travaglini 2020)	CLEC7A	1128
+COVID	Non-classical monocyte (Travaglini 2020)	CLEC12A	1131
+COVID	Non-classical monocyte (Travaglini 2020)	MYD88	1135
+COVID	Non-classical monocyte (Travaglini 2020)	LRRC25	1163
+COVID	Non-classical monocyte (Travaglini 2020)	SNX18	1194
+COVID	Non-classical monocyte (Travaglini 2020)	GPBAR1	1204
+COVID	Non-classical monocyte (Travaglini 2020)	P2RY13	1218
+COVID	Non-classical monocyte (Travaglini 2020)	CHST15	1223
+COVID	Non-classical monocyte (Travaglini 2020)	AP1S2	1224
+COVID	Non-classical monocyte (Travaglini 2020)	CSF1R	1228
+COVID	Non-classical monocyte (Travaglini 2020)	VMO1	1233
+COVID	Non-classical monocyte (Travaglini 2020)	ZNF703	1243
+COVID	Non-classical monocyte (Travaglini 2020)	CD300LF	1280
+COVID	Non-classical monocyte (Travaglini 2020)	RXRA	1282
+COVID	Non-classical monocyte (Travaglini 2020)	CD300E	1283
+COVID	Non-classical monocyte (Travaglini 2020)	INSIG1	1286
+COVID	Non-classical monocyte (Travaglini 2020)	NAP1L1	1295
+COVID	Non-classical monocyte (Travaglini 2020)	LILRA5	1296
+COVID	Non-classical monocyte (Travaglini 2020)	ISG15	1304
+COVID	Non-classical monocyte (Travaglini 2020)	HES4	1310
+COVID	Non-classical monocyte (Travaglini 2020)	PLXNB2	1340
+COVID	Non-classical monocyte (Travaglini 2020)	SERPINA1	1349
+COVID	Non-classical monocyte (Travaglini 2020)	LYPD2	1352
+COVID	Non-classical monocyte (Travaglini 2020)	C5AR1	1353
+COVID	Non-classical monocyte (Travaglini 2020)	MPEG1	1358
+COVID	Non-classical monocyte (Travaglini 2020)	PSAP	1362
+COVID	Non-classical monocyte (Travaglini 2020)	PAPSS2	1380
+COVID	Non-classical monocyte (Travaglini 2020)	FCGR3A	1393
+COVID	Non-classical monocyte (Travaglini 2020)	MAFB	1395
+COVID	Non-classical monocyte (Travaglini 2020)	LST1	1408
+COVID	Non-classical monocyte (Travaglini 2020)	TBC1D8	1410
+COVID	Non-classical monocyte (Travaglini 2020)	C19orf38	1614
+COVID	Non-classical monocyte (Travaglini 2020)	HSBP1	1674
+COVID	Non-classical monocyte (Travaglini 2020)	LYN	1820
+COVID	Non-classical monocyte (Travaglini 2020)	CUX1	1848
+COVID	Non-classical monocyte (Travaglini 2020)	PECAM1	1869
+COVID	Non-classical monocyte (Travaglini 2020)	NBPF14	1892
+COVID	MS1 monocyte score (Reyes 2020)	RETN	256
+COVID	MS1 monocyte score (Reyes 2020)	CLU	456
+COVID	MS1 monocyte score (Reyes 2020)	ALOX5AP	598
+COVID	MS1 monocyte score (Reyes 2020)	TXN	647
+COVID	MS1 monocyte score (Reyes 2020)	PLAC8	751
+COVID	MS1 monocyte score (Reyes 2020)	MT1X	1299
+COVID	Calprotectin S100A8/A9 + S100A12	S100A8	737
+COVID	Calprotectin S100A8/A9 + S100A12	S100A9	935
+COVID	Calprotectin S100A8/A9 + S100A12	S100A12	936
+COVID	Calprotectin complex (GO:1990660)	S100A8	737
+COVID	Calprotectin complex (GO:1990660)	S100A9	935
+COVID	CD16 monocyte (Azimuth PBMC, Hao 2021)	CDKN1C	556
+COVID	CD16 monocyte (Azimuth PBMC, Hao 2021)	IFITM3	716
+COVID	CD16 monocyte (Azimuth PBMC, Hao 2021)	RHOC	830
+COVID	CD16 monocyte (Azimuth PBMC, Hao 2021)	MS4A7	1016
+COVID	CD16 monocyte (Azimuth PBMC, Hao 2021)	HES4	1310
+COVID	CD16 monocyte (Azimuth PBMC, Hao 2021)	FCGR3A	1393
+COVID	CD16 monocyte (Azimuth PBMC, Hao 2021)	AIF1	1406
+COVID	CD16 monocyte (Azimuth PBMC, Hao 2021)	LST1	1408
